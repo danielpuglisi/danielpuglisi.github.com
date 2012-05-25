@@ -2,23 +2,4 @@
 layout: layout
 ---
 
-<div class="content">
-  <div id="post">
-    {% include post_header.html %}
-    {{ content }}
-  </div>
-
-  <div class="whoring">
-    <h3>Comments, Tweets and Questions</h3>
-    {% if page.hn %}
-    <p>
-      Enjoyed the article? How about taking things further by discussing it over at <a href="{{ page.hn }}">Hacker News</a>?
-    </p>
-    {% endif %}
-    <p>
-      Feel free to <a href="https://github.com/therod/feedback/issues/new">ask me anything</a>
-      or just <a href="http://twitter.com/therod">start following</a> me on Twitter already! 
-    </p>
-  </div>
-
-</div>
+{% include post.html %}

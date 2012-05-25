@@ -4,7 +4,7 @@
 body
   font-family: "Open Sans", sans-serif
   line-height: 22px
-  color: #333
+  color: $black1
   font-size: 15px
   +text-shadow(white 0 1px 1px)
   
@@ -28,16 +28,48 @@ a
         border-bottom: 1px dashed $gray1 - #333
 
 article
-  h1, h2
-    font-size: 22px
-    line-height: 31px
-    color: black
-    font-weight: 600
+  header
+    margin-bottom: 30px
+    h1, h2
+      font-size: 22px
+      line-height: 31px
+      color: black
+      font-weight: 600
+      margin-bottom: 10px
+    .meta
+      font-size: 13px
+      color: $black1 + #555
+  p, ul, ol, .highlight
+    margin-bottom: 20px
   p
     line-height: 27px
-    margin-bottom: 20px
   strong, b
     font-weight: bold
   em, i
     font-style: italic
- 
+  blockquote, ul, ol
+    padding-left: 40px
+  blockquote
+    border-left: 3px solid $gray1 - #111
+    color: $black1 + #555
+  ul
+    list-style: disc
+  ol
+    list-style: decimal
+  p code, li code
+    background: $gray1
+    padding: 2px 3px
+    border: 1px solid $gray1 - #111
+    font-family: "Courier New", Times
+    font-size: 14px
+  img
+    width: 100%
+  .source
+    display: block
+    text-align: right
+    margin-top: -7px
+    font-size: 13px
+    a
+      color: $black1 + #999
+      &:hover
+        border-bottom: $black1 + #999 dashed 1px
