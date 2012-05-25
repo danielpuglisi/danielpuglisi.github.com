@@ -1,0 +1,88 @@
+body
+  background: white
+
+#left
+  z-index: -2
+  position: fixed
+  width: 30%
+  float: left
+  // TODO: Background image with noise
+  background: $gray1
+  +box-shadow(inset $gray1 - #333 0 0 10px)
+  height: 100%
+  border-right: 1px solid $gray1 - #111
+  #sidebar
+    float: right
+    margin: 70px 50px
+    width: 170px
+    #header
+      width: 160px
+      height: 160px
+      padding: 5px
+      text-align: center
+    #me
+      margin-top: 30px
+    ul
+      margin-top: 20px
+    footer
+      z-index: -3
+      width: 150px
+      padding: 10px
+      position: absolute
+      background: $gray1 - #0a0a0a
+      bottom: 0
+      +border-top-radius(3px)
+      +box-shadow(inset $gray1 - #222 0 0 5px)
+
+#right
+  width: 70%
+  float: right
+  article
+    padding: 70px 0 90px 95px
+    .inner
+      width: 600px
+      padding-right: 50px
+
+@media (max-width: 1070px)
+  #left
+    height: 100%
+    #sidebar
+      margin-right: 35px
+    
+  #right
+    article
+      padding-right: 20px
+      padding-left: 35px
+      .inner
+        padding-top: 30px 0 0 0
+        width: auto
+
+@media (max-width: 720px)
+  body
+    padding: 30px
+  #left
+    height: auto
+    background: none
+    +box-shadow(none)
+    border-right: none
+    float: none
+    width: 100%
+    position: relative
+    #sidebar
+      float: none
+      margin: 0
+      width: 100%
+      text-align: left
+      font-style: italic
+      ul
+        li
+          display: inline
+      footer
+        display: none
+  #right
+    width: 100%
+    float: none
+    article
+      padding: 30px 0 0 0
+      .inner
+        padding: 0
