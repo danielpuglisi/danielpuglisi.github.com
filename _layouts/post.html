@@ -2,6 +2,6 @@
 layout: layout
 ---
 
-{% for post in site.posts %}
-  {% include post.html %}
-{% endfor %}
+{% assign post = page %}
+{% assign single = true %}
+{% include post.html %}

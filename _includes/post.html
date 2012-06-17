@@ -2,10 +2,14 @@
   <div class="inner">
     <header>
       <h2>
-        <a href="{{ post.url }}">{{ post.title }}</a> 
+        {% if single %}
+          {{ post.title }}
+        {% else %}
+          <a href="{{ post.url }}">{{ post.title }}</a> 
+        {% endif %}
       </h2>
       <div class="meta">{{ post.date | date: "%B %e, %Y" }}</div>
     </header>
-    {{ post.content }}
+    {{ post.content | markdownify }}
   </div>
 </article>

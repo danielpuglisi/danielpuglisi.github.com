@@ -1,4 +1,8 @@
 ---
-layout: post
+layout: layout
 title: "Daniel Puglisi"
 ---
+
+{% for post in site.posts %}
+  {% include post.html %}
+{% endfor %}
