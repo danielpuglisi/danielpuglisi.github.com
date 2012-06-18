@@ -1,21 +1,34 @@
 ---
 layout: post
-category: tech
+category: personal
 title: "We are going to France"
-published: false
 ---
 
 Yes, thats true. We are going to France. [Rodrigo](http://rodrigohaenggi.com) and I. 
 
-But before I'm going to reveal the reason why we are visiting France, I want to tell you a little story:
+But before I'm going to reveal the reason why we are visiting France, I want to tell you the story of a little boy:
 
-I tried very hard to learn French the last six years and I wasn't very successful. Truth be told, I suck at French.
-Very often I thought about the reason why I'm so bad. Was it my learning method? Did I spend to less time on cramming specific words or grammar rules? Or did I justed sucked?
-So I did a little research into my past. I found out, that my marks at the primary school were quiet good and the French mark was around 5 (A-). So I moved on to the
-secondary school. And that was the time were my French mark jumped off the top floor of a high-rise without attracting a lifeline. My mark dropped to 1 (F) in the second semester.
-At this time I hated the school. First I thought it was just my puperty. But after thinking a little bit longer about it, I realized that the main reason for the situation lay elsewhere.
+> The story is about a little boy who tried very hard to learn French the last six years, but wasn't very successful. Truth be told, he sucked at French.
+Very often that boy thought about the reason why he was so bad at it. He asked himself wether the reason was his learning method? 
+Did he spend to little time on cramming specific words or grammar rules? Or did he just sucked in languages?
+He started to dig around in his past and found out, that his marks at the elementary school were quite good and the French mark was around a 5 (A-). So he moved on with his thoughts and landed at the
+secondary school. And that was the time were his French mark jumped off the top of a high-rise without attracting a lifeline. His mark dropped to a 1 (F) in the second semester of the secondary school.
+First he thought the reason for this were just his puberty. But after thinking a little bit longer about it, he realized that the main reason for his situation laid elsewhere.
 
-It was my class teacher. Everything I had done was bad, e.g. he humuliated me because of my handwriting and gave me bad marks because of it. But everyone could read my handwriting.
-After a few years I heard from other students that they got bullied and the teacher ~~that asshole~~ was terminated.
+> The reason was his former class teacher. Everything he had done, at the time back then, was presented by the teacher as poor. An example was, that the teacher humiliated him because of his 
+handwriting and gave him bad marks because of it. 
+So he began to train his handwriting skills, but it was never good enough. Everything he tried got restrained by this teacher. So he gave up.
+After the second semester he switched the class and his mark got a little bit better, but he never reached the same level that he had before. 
+And even yet, he always has a bad feeling when he is hearing the French langauge.
 
-So maybe my negative feelings about French are 
+> After a few years that teacher got kicked out of school because of bullying students.
+
+I also suck at French. I don't know why. Maybe it is because of such a shitty teacher or because I didn't learned enough for school. Maybe I will never know. But what I do know is, 
+that this teacher from the story is an old fat wanker.
+
+But back to the topic of this post. We are going to France. To be more specific, we are going to Lyon. The reason for this is the [Ruby Lugdunum](http://rulu.eu/) conference.
+Rodrigo and I are passionate Ruby developers and I think we can learn much from the talks and the people we are going to meet there.
+
+I hope they speak English there and if not I do remeber a few words in French: 
+
+"Excuse moi, je suis un tourist."
