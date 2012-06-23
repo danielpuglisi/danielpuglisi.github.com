@@ -11,5 +11,8 @@
       <div class="meta">{{ post.date | date: "%B %e, %Y" }}</div>
     </header>
     {{ post.content | markdownify }}
+    {% if single %}
+      {% include footer.html %}
+    {% endif %}
   </div>
 </article>
