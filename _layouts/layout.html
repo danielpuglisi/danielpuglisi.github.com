@@ -6,6 +6,7 @@
   <meta name="author" content="Daniel Puglisi" />
   <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  {% if page.title != "Daniel Puglisi" %}<meta property="og:description" content="{{ page.content | truncatewords:80 | strip_html }}" />{% endif %}
   <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <script type="text/javascript">
