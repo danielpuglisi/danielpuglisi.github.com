@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spotify Playlist: Summer Maddafakkas"
-category: ["personal", "music"]
+category: "personal"
 ---
 
 <iframe src="https://embed.spotify.com/?uri=spotify:user:116689447:playlist:4x748cfeeSX9Ie5SATVmDv&theme=white&view=coverart" frameborder="0" allowtransparency="true" class="spotify"></iframe>
