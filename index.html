@@ -4,5 +4,10 @@ title: "Daniel Puglisi"
 ---
 
 {% for post in site.posts %}
-  {% include post.html %}
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% endcase %} 
 {% endfor %}
