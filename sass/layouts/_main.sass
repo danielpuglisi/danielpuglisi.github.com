@@ -56,6 +56,20 @@ body
       width: 880px
       height: 495px
 
+  .pagination
+    font-size: 12px
+    padding: 50px 0 50px 95px
+    text-align: center
+    width: 600px
+    .page, .previous, .next
+      a, span
+        padding: 4px 12px
+    .current-page, a:hover
+      background: $red1
+      color: #fff
+      +text-shadow($black1 0 1px 1px)
+      +border-radius(3px)
+
 @media (max-width: 1500px)
   #right
     article
@@ -81,6 +95,9 @@ body
       .spotify
         width: 420px
         height: 500px
+    .pagination
+      padding: 35px 0
+      width: 100%
 
 @media (max-width: 720px)
   body
@@ -123,3 +140,7 @@ body
       .spotify
         width: 260px
         height: 340px
+    .pagination
+      .extended
+        display: none
+      font-size: 13px

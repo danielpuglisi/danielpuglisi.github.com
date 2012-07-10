@@ -1,0 +1,47 @@
+<div class="pagination-wrapper">
+  <div class="pagination">
+  {% if paginator.previous_page %}
+    <span class="previous">
+      {% if paginator.previous_page == 1 %}
+        <a href="/">Previous</a>
+      {% else %}
+        <a href="/page{{paginator.previous_page}}">Previous</a>
+      {% endif %}
+    </span>
+  {% else %}
+    <span class="previous disabled">
+      <span>Previous</span>
+    </span>
+  {% endif %}
+
+  <span class="extended">
+    <span class="page">
+      {% if paginator.page == 1 %}
+        <span class="current-page">1</span>
+      {% else %}
+        <a href="/">1</a>
+      {% endif %}
+    </span>
+
+    {% for count in (2..paginator.total_pages) %}
+      <span class="page">
+        {% if count == paginator.page %}
+          <span class="current-page">{{count}}</span>
+        {% else %}
+          <a href="/page{{count}}">{{count}}</a>
+        {% endif %}
+      </span>
+    {% endfor %}
+  </span>
+
+  {% if paginator.next_page %}
+    <span class="next">
+      <a href="/page{{paginator.next_page}}">Next</a>
+    </span>
+  {% else %}
+    <span class="next disabled">
+      <span>Next</span>
+    </span>
+  {% endif %}
+  </div>
+</div>

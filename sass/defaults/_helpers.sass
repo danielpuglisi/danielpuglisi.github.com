@@ -79,3 +79,14 @@
 //   right: 12px
 //   +rotate(5deg)
 //   +skew(5deg, 5deg)
+
+.clearfix:after 
+  content: "."
+  display: block
+  clear: both
+  visibility: hidden
+  line-height: 0
+  height: 0
+
+.clearfix 
+  display: inline-block
