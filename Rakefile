@@ -69,6 +69,17 @@ def no_op(args)
   args.each { |a| task a.to_sym do ; end }
 end
 
+namespace :list do
+  desc "Show published articles"
+  task :published do
+
+  end
+
+  desc "Show unpublished articles"
+  task :unpublished do
+  end
+end
+
 desc "Startup Jekyll & Compass"
 task :start do
   sh "foreman start"
