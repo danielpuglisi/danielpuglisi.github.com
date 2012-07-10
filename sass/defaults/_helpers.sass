@@ -13,7 +13,7 @@
   text-align: center
   width: 100px
   padding: 5px 20px
-  margin: -20px 0 0 15px
+  margin: -25px 0 0 15px
   color: white
   background-color: $red1
   +box-shadow(#888 0 2px 4px)
@@ -58,8 +58,12 @@
     border-width: 15px 5px
     border-style: solid
     border-color: $red1 transparent $red1 $red1
-  a
+  span a
+    border: none
     color: $yellow1
+    &:hover
+      border: none
+      color: $yellow1 + #111
 
 // .box:before, .box:after
 //   z-index: -1
@@ -90,3 +94,7 @@
 
 .clearfix 
   display: inline-block
+
+.bullet:after
+  content: "\2022"
+  font-size: 12px
