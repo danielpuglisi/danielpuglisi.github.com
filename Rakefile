@@ -100,4 +100,9 @@ task :start do
   sh "cd #{base} && foreman start"
 end
 
+desc "open site in browser"
+task :open do
+  sh "open http://localhost:4000"
+end
+
 task :default => :start
