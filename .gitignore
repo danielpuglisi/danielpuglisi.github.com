@@ -1,4 +1,5 @@
 _site
 drafts
 .DS_Store
-.sass-cache/*
+.jekyll/.sass-cache/*
+.sass-cache

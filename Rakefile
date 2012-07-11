@@ -3,6 +3,8 @@ require 'rake'
 require 'fileutils'
 require 'Date'
 
+base = ".jekyll"
+
 task :new do
   no_op(ARGV[1..-1])            # call no_op method
   ARGV.shift                    # get rid of first argument
@@ -17,7 +19,7 @@ def create_file(type)
   date = get_date
   number = get_sort_number(date)
 
-  filepath = "_posts/#{date}-#{title.slug}.md"
+  filepath = "#{base}/_posts/#{date}-#{title.slug}.md"
 
   FileUtils.touch(filepath)
 
@@ -62,10 +64,9 @@ def get_date
 end
 
 def get_sort_number(date)
-  files = Dir.entries("./_posts").select {|f| f.match /^#{date}/}
+  files = Dir.entries("#{base}/_posts").select {|f| f.match /^#{date}/}
   files.empty? ? "0" : files.count.to_s
 end
-
 
 # creates no operation tasks for
 # the command line arguments
@@ -86,7 +87,7 @@ end
 
 desc "generates static files in root dir"
 task :generate do
-  sh "rsync -rd .jekyll/_site/* ."
+  sh "rsync -rd #{base}/_site/* ."
 end
 
 desc "cleans up the root directory but doesn't touch the jekyll files"
@@ -96,7 +97,7 @@ end
 
 desc "Startup Jekyll & Compass"
 task :start do
-  sh "cd .jekyll && foreman start"
+  sh "cd #{base} && foreman start"
 end
 
 task :default => :start
