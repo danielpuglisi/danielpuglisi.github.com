@@ -84,6 +84,16 @@ namespace :list do
   end
 end
 
+desc "generates static files in root dir"
+task :generate do
+  sh "rsync -rd .jekyll/_site/* ."
+end
+
+desc "cleans up the root directory but doesn't touch the jekyll files"
+task :cleanup do
+  #TODO: write cleanup code
+end
+
 desc "Startup Jekyll & Compass"
 task :start do
   sh "cd .jekyll && foreman start"
