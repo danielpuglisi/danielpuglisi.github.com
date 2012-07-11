@@ -1,0 +1,16 @@
+---
+layout: layout
+title: "Daniel Puglisi"
+base: tech/
+---
+
+{% for post in paginator.posts %}
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% endcase %} 
+{% endfor %}
+
+{% include pagination.html %}
