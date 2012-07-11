@@ -2,6 +2,7 @@
 layout: post
 title: "Submarine Cable Map 2012"
 date: 2012-07-11 3
+permalink: "/2012/07/11/submarine-cable-map-2012.html"
 ---
 
 ![Submarine Cable Map 2012](/images/posts/submarine-cable-map-2012.jpg)

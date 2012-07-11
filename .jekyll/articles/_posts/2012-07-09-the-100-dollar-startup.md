@@ -1,8 +1,9 @@
 ---
 layout: link
 title: "The 100$ Startup"
-category: rec
+category: books
 link: "http://www.amazon.de/gp/product/B0067TGSOK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B0067TGSOK&linkCode=as2&tag=httpdanielpuc-21"
+permalink: "/rec/2012/07/09/the-100-dollar-startup.html"
 ---
 
 Daniel H. Pink, New York Times bestselling author of Drive and A Whole New Mind:

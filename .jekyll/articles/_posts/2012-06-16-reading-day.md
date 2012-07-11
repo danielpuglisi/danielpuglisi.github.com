@@ -1,7 +1,7 @@
 ---
 layout: post
-category: personal
 title: "Reading day"
+permalink: "/personal/2012/06/16/reading-day.html"
 ---
 
 ![Reading Day - 1](http://farm8.staticflickr.com/7223/7379055052_8e1883938e_z.jpg)

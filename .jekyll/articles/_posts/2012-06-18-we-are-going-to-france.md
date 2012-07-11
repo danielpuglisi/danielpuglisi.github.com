@@ -1,7 +1,7 @@
 ---
 layout: post
-category: personal
 title: "We are going to France"
+permalink: "/personal/2012/06/18/we-are-going-to-france.html"
 ---
 
 Yes, thats true. We are going to France. [Rodrigo](http://rodrigohaenggi.com) and I. 

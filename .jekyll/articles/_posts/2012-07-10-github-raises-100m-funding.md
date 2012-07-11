@@ -3,6 +3,7 @@ layout: link
 title: "GitHub raises $100M funding"
 date: 2012-07-10 1
 link: "https://github.com/blog/1189-investing-in-github"
+permalink: "/2012/07/10/github-raises-100m-funding.html"
 ---
 
 > Today we are partnering with Andreessen Horowitz and announcing our first ever outside investment.
