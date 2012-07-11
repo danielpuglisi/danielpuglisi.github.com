@@ -86,7 +86,7 @@ end
 
 desc "Startup Jekyll & Compass"
 task :start do
-  sh "foreman start"
+  sh "cd .jekyll && foreman start"
 end
 
 task :default => :start

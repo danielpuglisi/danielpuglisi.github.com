@@ -1,0 +1,8 @@
+markdown: rdiscount
+pygments: true
+auto: true
+rdiscount:
+  extensions: [smart]
+paginate: 10
+
+# custom setup
