@@ -7,7 +7,8 @@ task :new do
   no_op(ARGV[1..-1])            # call no_op method
   ARGV.shift                    # get rid of first argument
   layout = ARGV.shift || "post" # get layout of new post
-  create_file(layout)           # create file
+  file = create_file(layout)           # create file
+  sh "vim #{file}"
 end
 
 def create_file(type)
@@ -16,9 +17,11 @@ def create_file(type)
   date = get_date
   number = get_sort_number(date)
 
-  FileUtils.touch("_posts/#{date}-#{title.slug}.md")
+  filepath = "_posts/#{date}-#{title.slug}.md"
 
-  open("_posts/#{date}-#{title.slug}.md", 'a') do |f|
+  FileUtils.touch(filepath)
+
+  open(filepath, 'a') do |f|
     f.puts "---"
     f.puts "layout: #{type}"
     f.puts "title: \"#{title}\""
@@ -26,6 +29,7 @@ def create_file(type)
     f.puts "link: \"#{link}\"" if link
     f.puts "---"
   end
+  filepath
 end
 
 ############################
