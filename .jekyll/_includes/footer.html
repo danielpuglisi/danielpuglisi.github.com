@@ -6,5 +6,7 @@
     if you find something that I've spelled/done wrong.
     That would help me to improve my English. Thanks.
   </p>
-  {% include disqus.html %}
+  {% if page.comments %}
+    {% include disqus.html %}
+  {% endif %}
 </footer>
