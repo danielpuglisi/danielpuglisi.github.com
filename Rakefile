@@ -2,24 +2,38 @@ require 'rubygems'
 require 'rake'
 require 'fileutils'
 require 'Date'
+require 'colored'
 
-base = ".jekyll"
+@base = ".jekyll"
+@categories = ["articles", "tech"]
 
 task :new do
   no_op(ARGV[1..-1])            # call no_op method
   ARGV.shift                    # get rid of first argument
   layout = ARGV.shift || "post" # get layout of new post
-  file = create_file(layout)           # create file
-  sh "vim #{file}"
+  file = create_file(layout)    # create file
+  sh "$EDITOR #{file}"              # open it with vim
 end
 
 def create_file(type)
+  # Title and other informations
   title = ask_for_title
   link = ask_for_link if type == "link"
-  date = get_date
-  number = get_sort_number(date)
 
-  filepath = "#{base}/_posts/#{date}-#{title.slug}.md"
+  # Category of the article
+  category = ask_for_category unless type == "link"
+  if category.to_s.empty?
+    category_dir = "articles"
+  else
+    category_dir = category
+  end
+
+  number = get_sort_number(file_date)
+
+  permalink = "/#{category_dir}/#{permalink_date}/#{title.slug}.html"
+  filename = "#{file_date}-#{title.slug}.md"
+
+  filepath = "#{@base}/#{category_dir}/_posts/#{filename}"
 
   FileUtils.touch(filepath)
 
@@ -27,10 +41,16 @@ def create_file(type)
     f.puts "---"
     f.puts "layout: #{type}"
     f.puts "title: \"#{title}\""
-    f.puts "date: #{date} #{number}"
+    f.puts "category: #{category}" unless category.to_s.empty?
+    f.puts "date: #{file_date} #{number}"
     f.puts "link: \"#{link}\"" if link
+    f.puts "permalink: \"#{permalink}\""
     f.puts "---"
   end
+
+  # Output message
+  puts "Created #{filepath}".green
+
   filepath
 end
 
@@ -39,13 +59,19 @@ end
 ############################
 
 def ask_for_title
-  puts "What should we call this article?"
+  puts "What should we call this article?".yellow
   print "> "
   STDIN.gets.chomp
 end
 
 def ask_for_link
-  puts "Link for the article?"
+  puts "Link for the article?".yellow
+  print "> "
+  STDIN.gets.chomp
+end
+
+def ask_for_category
+  puts "In which category shall I put that new masterpiece?".yellow
   print "> "
   STDIN.gets.chomp
 end
@@ -55,17 +81,25 @@ end
 #########################
 
 def slug
-  self.downcase.gsub(" ", "-").strip
+  self.downcase.gsub(" ", "-").gsub(/[^0-9a-z\-]/, '')
 end
 public :slug
 
-def get_date
+def file_date
   Date.today.strftime("%Y-%m-%d")
 end
 
+def permalink_date
+  Date.today.strftime("%Y/%m/%d")
+end
+
 def get_sort_number(date)
-  files = Dir.entries("#{base}/_posts").select {|f| f.match /^#{date}/}
-  files.empty? ? "0" : files.count.to_s
+  amount = 0
+  @categories.each do |category|
+    files = Dir.entries("#{@base}/#{category}/_posts").select {|f| f.match /^#{date}/}
+    amount += files.count
+  end
+  amount.to_s
 end
 
 # creates no operation tasks for
@@ -87,7 +121,7 @@ end
 
 desc "generates static files in root dir"
 task :generate do
-  sh "rsync -rd #{base}/_site/* ."
+  sh "rsync -rd #{@base}/_site/* ."
 end
 
 desc "cleans up the root directory but doesn't touch the jekyll files"
@@ -97,7 +131,7 @@ end
 
 desc "Startup Jekyll & Compass"
 task :start do
-  sh "cd #{base} && foreman start"
+  sh "cd #{@base} && foreman start"
 end
 
 desc "open site in browser"
