@@ -4,12 +4,27 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-07-12T21:28:42+02:00</updated>
+ <updated>2012-07-16T11:55:20+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Brandon Keepers: Why Our Code Smells</title>
+   <link href="http://danielpuglisi.com/articles/2012/07/16/brandon-keepers-why-our-code-smells.html"/>
+   <updated>2012-07-16T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/07/16/brandon-keepers-why-our-code-smells</id>
+   <content type="html">&lt;p&gt;As you might know, I attended at the &lt;a href=&quot;http://rulu.eu&quot;&gt;Ruby Lugdunum Conference&lt;/a&gt; in Lyon this year.
+Besides the good food and the interesting people I met, there were also
+some really good talks. One of these talks was given by &lt;a href=&quot;http://opensoul.org/&quot;&gt;Brandon Keepers&lt;/a&gt; from
+&lt;a href=&quot;http://github.com&quot;&gt;GitHub&lt;/a&gt;:&lt;/p&gt;
+
+&lt;iframe class=&quot;youtube&quot; src=&quot;http://www.youtube.com/embed/JxPKljUkFQw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Vim Creep</title>
