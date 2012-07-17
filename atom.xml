@@ -4,12 +4,25 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-07-16T11:55:20+02:00</updated>
+ <updated>2012-07-17T12:39:47+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>shortcutFoo: Learn shortcuts. Work faster</title>
+   <link href="http://danielpuglisi.com/articles/2012/07/17/shortcutfoo-learn-shortcuts-work-faster.html"/>
+   <updated>2012-07-17T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/07/17/shortcutfoo-learn-shortcuts-work-faster</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;Become a shortcut ninja through interactive learning and repetition. With thousands of commands at your fingertips and interactive drills, the shortcuts quickly become ingrained so your fingers can fly.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds cool. I always wanted to learn the different Photoshop shortcuts which are out there. I think now is the time.&lt;/p&gt;
+
+&lt;p&gt;I haven&amp;rsquo;t done the Vim training yet, but maybe it is a good starting point for newbies?&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Brandon Keepers: Why Our Code Smells</title>
