@@ -14,7 +14,7 @@ Nigel Marsh:
 
 Four years ago, Adam Baker and his wife decided to sell all their stuff, pay off their debts and go on 
 an one year traveling journey. In the following talk, Adam talks about freedom.
-The freedom which most people today interpret as a cicle of going to school, work hard and hopefully earn
+The freedom which most people today interpret as a cycle of going to school, work hard and hopefully earn
 enough money to pay off their debts. For Adam, Freedom has nothing to do with that and in this talk,
 he is going to talk about how he has rewritten his own script of what freedom is.
 
