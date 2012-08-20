@@ -4,12 +4,27 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-08-20T10:49:58+02:00</updated>
+ <updated>2012-08-20T21:57:45+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>The ToDone list</title>
+   <link href="http://danielpuglisi.com/articles/2012/08/20/the-todone-list.html"/>
+   <updated>2012-08-20T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/08/20/the-todone-list</id>
+   <content type="html">&lt;p&gt;Me:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;But a todo list in itself isn&amp;rsquo;t the whole truth in improving my speed and quality of getting things done.
+Another important aspect is, that I have to see what I&amp;rsquo;ve done through the day.
+Productivity isn&amp;rsquo;t just a word or a feeling, for me it has to be visible.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I just released a new article over at our company blog. It&amp;rsquo;s about lists and stuff.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Sell your crap. Pay your dept. Do what you love.</title>
