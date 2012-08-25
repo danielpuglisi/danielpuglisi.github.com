@@ -19,9 +19,10 @@ def create_file(type)
   # Title and other informations
   title = ask_for_title
   link = ask_for_link if type == "link"
+  quote = ask_for_quote if type == "quote"
 
   # Category of the article
-  category = ask_for_category unless type == "link"
+  category = ask_for_category unless type == "link" || type == "quote"
   if category.to_s.empty?
     category_dir = "articles"
   else
@@ -46,6 +47,7 @@ def create_file(type)
     f.puts "link: \"#{link}\"" if link
     f.puts "permalink: \"#{permalink}\""
     f.puts "---"
+    f.puts "\n> #{quote}" if quote
   end
 
   # Output message
@@ -66,6 +68,12 @@ end
 
 def ask_for_link
   puts "Link for the article?".yellow
+  print "> "
+  STDIN.gets.chomp
+end
+
+def ask_for_quote
+  puts "Quote for the article?".yellow
   print "> "
   STDIN.gets.chomp
 end
