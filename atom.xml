@@ -4,12 +4,60 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-08-25T21:36:17+02:00</updated>
+ <updated>2012-08-27T20:25:13+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Keep your Heroku app alive, for free</title>
+   <link href="http://danielpuglisi.com/articles/2012/08/27/keep-your-free-heroku-app-alive.html"/>
+   <updated>2012-08-27T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/08/27/keep-your-heroku-app-alive-for-free</id>
+   <content type="html">&lt;p&gt;Maybe you were in this situation before.
+You&amp;rsquo;re developing a website or
+app with &lt;a href=&quot;http://rubyonrails.org/&quot;&gt;Ruby on Rails&lt;/a&gt; and using
+a single &lt;a href=&quot;http://www.heroku.com/&quot;&gt;Heroku&lt;/a&gt;
+dyno to show off your current progress to your customers.
+The thing is, if you are only
+using one dyno for your app,
+Heroku is going to put your app back to sleep after a
+certain time (5 minutes I think?) and this causes your
+app to load slower the next time a request comes in.
+There &lt;a href=&quot;https://github.com/github/hubot-scripts/blob/master/src/scripts/keep-alive.coffee&quot;&gt;are&lt;/a&gt;
+&lt;a href=&quot;http://beouk.blogspot.ch/2012/02/keeping-heroku-awake.html&quot;&gt;a&lt;/a&gt;
+&lt;a href=&quot;http://danneu.com/posts/7-keeping-that-free-heroku-dyno-alive-without-feeling-unethical&quot;&gt;few&lt;/a&gt;
+workarounds already out there, but I wanted to have something simpler.&lt;/p&gt;
+
+&lt;p&gt;So I came up with a little shell script:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/3490814.js?file=keep-alive.sh&quot;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This script does nothing more than requesting every single Heroku app which is defined in the array at
+the beginning of the script.&lt;/p&gt;
+
+&lt;p&gt;Of course, it would be a little bit overwhelming to call this script
+every 5 minutes by hand, so we are going to create a cronjob.&lt;/p&gt;
+
+&lt;p&gt;To accomplish this, we are adding the following line to the &lt;code&gt;/etc/crontab&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/3490792.js?file=crontab&quot;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This is going to execute the &lt;code&gt;keep-alive.sh&lt;/code&gt; script every minute.&lt;/p&gt;
+
+&lt;p&gt;To complete the whole thing, put the &lt;code&gt;keep-alive.sh&lt;/code&gt; file into the &lt;code&gt;/etc/cron.custom&lt;/code&gt; directory
+(you may have to create the directory first) and you are all set.&lt;/p&gt;
+
+&lt;p&gt;I run that script on a Linux server, but it should also work with OSX.
+And thats it. The Heroku app shouldn&amp;rsquo;t go back to sleep anymore (as long as your system is running).&lt;/p&gt;
+
+&lt;p&gt;Enjoy.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Song of the Week: The Kids Are Ready To Die - The Airborne Toxic Event</title>
