@@ -4,12 +4,23 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-08-27T21:37:24+02:00</updated>
+ <updated>2012-08-28T09:10:10+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>This is Droplings for Mac</title>
+   <link href="http://danielpuglisi.com/articles/2012/08/28/this-is-droplings-for-mac.html"/>
+   <updated>2012-08-28T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/08/28/this-is-droplings-for-mac</id>
+   <content type="html">&lt;blockquote&gt;&lt;p&gt;It can turn any file on your computer into a branded download page hosted on Dropbox.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Cool.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Keep your Heroku app alive, for free</title>
