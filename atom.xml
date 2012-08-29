@@ -4,12 +4,26 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-08-28T09:10:10+02:00</updated>
+ <updated>2012-08-29T19:05:06+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Trolling like a sir</title>
+   <link href="http://danielpuglisi.com/articles/2012/08/29/trolling-like-a-sir.html"/>
+   <updated>2012-08-29T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/08/29/trolling-like-a-sir</id>
+   <content type="html">&lt;p&gt;Do you always wanted to be a celebrity?&lt;/p&gt;
+
+&lt;p&gt;Then maybe the guy from the following video can help you. It apparently works. At least for a few minutes&amp;hellip;&lt;/p&gt;
+
+&lt;iframe class=&quot;youtube&quot; src=&quot;http://www.youtube.com/embed/XYU1a0lTTTw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>This is Droplings for Mac</title>
