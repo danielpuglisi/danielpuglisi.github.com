@@ -4,12 +4,26 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-05T20:35:55+02:00</updated>
+ <updated>2012-09-05T20:46:30+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Song of the Week: Red Dawn Rising - Birdy Nam Nam</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/05/song-of-the-week-red-dawn-rising---birdy-nam-nam.html"/>
+   <updated>2012-09-05T01:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/05/song-of-the-week-red-dawn-rising---birdy-nam-nam</id>
+   <content type="html">&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:track:4LIuTkElFDA3U8mUcCSxET&quot; class=&quot;spotify&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;Birdy Nam Nam, concert, Switzerland, Basel, Kaserne, 27. October, are you coming too?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.kaserne-basel.ch/Musik/Birdy_Nam_Nam/Birdy_Nam_Nam_2012-1&quot;&gt;Some infos&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>How we keep GitHub fast</title>
