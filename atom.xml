@@ -4,12 +4,21 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-05T20:48:27+02:00</updated>
+ <updated>2012-09-05T20:58:54+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>A quote from freshfey</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/05/a-quote-from-freshfey.html"/>
+   <updated>2012-09-05T02:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/05/a-quote-from-freshfey</id>
+   <content type="html">
+</content>
+ </entry>
  
  <entry>
    <title>Song of the Week: Red Dawn Rising - Birdy Nam Nam</title>
