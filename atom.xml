@@ -4,12 +4,24 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-05T20:58:54+02:00</updated>
+ <updated>2012-09-06T13:04:40+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Hansel and Gretel: Witch Hunters</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/06/hansel-and-gretel-witch-hunters.html"/>
+   <updated>2012-09-06T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/06/hansel-and-gretel-witch-hunters</id>
+   <content type="html">&lt;iframe class=&quot;youtube&quot; src=&quot;http://www.youtube.com/embed/u910f05Sjtw&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;w00t!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>A quote from freshfey</title>
