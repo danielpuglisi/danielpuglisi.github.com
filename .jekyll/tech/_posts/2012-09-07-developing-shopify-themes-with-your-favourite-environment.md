@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Developing Shopify Themes with your favourite environment"
+title: "Developing Shopify Themes in your favourite environment"
 category: tech
 date: 2012-09-07 0
-permalink: "/articles/2012/09/07/developing-shopify-themes-with-your-favourite-environment.html"
+permalink: "/articles/2012/09/07/developing-shopify-themes-in-your-favourite-environment.html"
 comments: true
 ---
 
