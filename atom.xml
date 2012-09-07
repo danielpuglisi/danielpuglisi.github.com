@@ -4,7 +4,7 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-07T15:23:27+02:00</updated>
+ <updated>2012-09-07T15:26:29+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
@@ -12,8 +12,8 @@
  
  
  <entry>
-   <title>Developing Shopify Themes with your favourite environment</title>
-   <link href="http://danielpuglisi.com/articles/2012/09/07/developing-shopify-themes-with-your-favourite-environment.html"/>
+   <title>Developing Shopify Themes in your favourite environment</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/07/developing-shopify-themes-in-your-favourite-environment.html"/>
    <updated>2012-09-07T00:00:00+02:00</updated>
    <id>http://danielpuglisi.com/articles/2012/09/07/developing-shopify-themes-with-your-favourite-environment</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR: I hate it when I can&amp;rsquo;t develop code in my favourite environment. So I found this glorious gem

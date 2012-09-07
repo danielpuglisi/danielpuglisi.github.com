@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Daniel Puglisi</title>
+  <title>Developing Shopify Themes in your favourite environment</title>
   <meta name="author" content="Daniel Puglisi" />
   <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-  
+  <meta property="og:description" content="**TL;DR: I hate it when I can't develop code in my favourite environment. So I found this glorious gem called [shopify\_theme](https://github.com/Shopify/shopify\_theme) which automatically syncs shopify themes to your connected shop.** I've been lately working on a [Shopify](http://shopify.com) store and the client who I work for wishes a customized desgin which looks like their original website. I had to find out, that this process wasn't that compatible with my expectation how to develop code and Shopify's integrated webeditor. Truth to be..." />
   <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -61,13 +61,13 @@
   <section id="right">
 
     
-  
-    <article class="post">
+
+<article class="post">
   <div class="inner">
     <header>
       <h2>
         
-          <a href="/articles/2012/09/07/developing-shopify-themes-in-your-favourite-environment.html">Developing Shopify Themes in your favourite environment</a> 
+          Developing Shopify Themes in your favourite environment
         
       </h2>
       <div class="meta">September  7, 2012</div>
@@ -76,31 +76,19 @@
 called <a href="https://github.com/Shopify/shopify_theme">shopify_theme</a>
 which automatically syncs shopify themes to your connected shop.</strong></p>
 
-
-
-
 <p>I&rsquo;ve been lately working on a <a href="http://shopify.com">Shopify</a> store and the client who I work for
 wishes a customized desgin which looks like their original website. I had to find out, that
 this process wasn&rsquo;t that compatible with my expectation how to develop code
 and Shopify&rsquo;s integrated webeditor.</p>
-
-
-
 
 <p>Truth to be told, Shopify&rsquo;s online editor sucks (to be fair, every webeditor sucks when you wan&rsquo;t
 to develop code with it). So I was looking for another solution. Shopify promotes that you can
 develop templates with their <a href="http://wiki.shopify.com/Shopify_Textmate_Bundle">Textmate Bundle</a>.
 Hmm no thank you&hellip; I didn&rsquo;t wanted to install Textmate only for developing one template.</p>
 
-
-
-
 <p>Then there was this <a href="http://wiki.shopify.com/Theme_Sync_App">OSX App</a> which
 I got recommended from the Shopify Support. You can download &amp; upload your themes with it but
 the performance is terrible. Also a no go.</p>
-
-
-
 
 <p>The final solution I came up with and using right now is this remarkably gem called
 <a href="https://github.com/Shopify/shopify_theme">shopify_theme</a> from Shopify itself.
@@ -108,131 +96,39 @@ It can watch for changes on theme files and if it detects something, it automati
 syncs the files to the shop. I just ask myself why they don&rsquo;t list this gem anywhere.
 Maybe I haven&rsquo;t searched enough.</p>
 
-
-
-
 <p>Anyway. This is how I like to work. Thank you Shopify.</p>
 
+    
+      <footer>
+  <!-- <p> -->
+  <!--   <b>Hint</b>: I'm not a native English speaker, --> 
+  <!--   so I would really appreciate it if you -->
+  <!--   would drop me a quick message via <a href="http://twitter.com/danielpuglisi">twitter</a> or <a href="mailto:daniel@codegestalt.com">mail</a> -->
+  <!--   if you find something that I've spelled/done wrong. -->
+  <!--   That would help me to improve my English. Thanks. -->
+  <!-- </p> -->
+  
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+var disqus_shortname = 'danielpuglisi'; // required: replace example with your forum shortname
+
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+ var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+ dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+ })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  
+</footer>
 
     
   </div>
 </article>
-
-   
-
-  
-    <article class="post">
-  <div class="inner">
-    <header>
-      <h2>
-        
-          <a href="/articles/2012/08/27/keep-your-free-heroku-app-alive.html">Keep your Heroku app alive, for free</a> 
-        
-      </h2>
-      <div class="meta">August 27, 2012</div>
-    </header>
-    <p>Maybe you were in this situation before.
-You&rsquo;re developing a website or
-app with <a href="http://rubyonrails.org/">Ruby on Rails</a> and using
-a single <a href="http://www.heroku.com/">Heroku</a>
-dyno to show off your current progress to your customers.
-The thing is, if you are only
-using one dyno for your app,
-Heroku is going to put your app back to sleep after a
-certain time (5 minutes I think?) and this causes your
-app to load slower the next time a request comes in.
-There <a href="https://github.com/github/hubot-scripts/blob/master/src/scripts/keep-alive.coffee">are</a>
-<a href="http://beouk.blogspot.ch/2012/02/keeping-heroku-awake.html">a</a>
-<a href="http://danneu.com/posts/7-keeping-that-free-heroku-dyno-alive-without-feeling-unethical">few</a>
-workarounds already out there, but I wanted to have something simpler.</p>
-
-
-
-
-<p>So I came up with a little shell script:</p>
-
-
-
-
-<script src="https://gist.github.com/3490814.js?file=keep-alive.sh"></script>
-
-
-
-
-<p>This script does nothing more than requesting every single Heroku app which is defined in the array at
-the beginning of the script.</p>
-
-
-
-
-<p>Of course, it would be a little bit overwhelming to call this script
-every 5 minutes by hand, so we are going to create a cronjob.</p>
-
-
-
-
-<p>To accomplish this, we are adding the following line to the <code>/etc/crontab</code> file:</p>
-
-
-
-
-<script src="https://gist.github.com/3490792.js?file=crontab"></script>
-
-
-
-
-<p>This is going to execute the <code>keep-alive.sh</code> script every minute.</p>
-
-
-
-
-<p>To complete the whole thing, put the <code>keep-alive.sh</code> file into the <code>/etc/cron.custom</code> directory
-(you may have to create the directory first) and you are all set.</p>
-
-
-
-
-<p>I run that script on a Linux server, but it should also work with OSX.
-And thats it. The Heroku app shouldn&rsquo;t go back to sleep anymore (as long as your system is running).</p>
-
-
-
-
-<p>Enjoy.</p>
-
-
-    
-  </div>
-</article>
-
-   
-
-
-<div class="pagination-wrapper">
-  <div class="pagination">
-  
-    <span class="previous disabled">
-      <span>Previous</span>
-    </span>
-  
-
-  <span class="extended">
-    <span class="page">
-      
-        <span class="current-page">1</span>
-      
-    </span>
-
-    
-  </span>
-
-  
-    <span class="next disabled">
-      <span>Next</span>
-    </span>
-  
-  </div>
-</div>
 
 
 
