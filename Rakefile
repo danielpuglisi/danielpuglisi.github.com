@@ -129,7 +129,7 @@ end
 
 desc "generates static files in root dir"
 task :generate do
-  sh "rsync -rd #{@base}/_site/* ."
+  sh "rsync -rd --delete --exclude-from=.jekyll/root-files #{@base}/_site/* ."
 end
 
 desc "cleans up the root directory but doesn't touch the jekyll files"
