@@ -4,12 +4,45 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-06T13:04:40+02:00</updated>
+ <updated>2012-09-07T15:23:27+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Developing Shopify Themes with your favourite environment</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/07/developing-shopify-themes-with-your-favourite-environment.html"/>
+   <updated>2012-09-07T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/07/developing-shopify-themes-with-your-favourite-environment</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR: I hate it when I can&amp;rsquo;t develop code in my favourite environment. So I found this glorious gem
+called &lt;a href=&quot;https://github.com/Shopify/shopify_theme&quot;&gt;shopify_theme&lt;/a&gt;
+which automatically syncs shopify themes to your connected shop.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been lately working on a &lt;a href=&quot;http://shopify.com&quot;&gt;Shopify&lt;/a&gt; store and the client who I work for
+wishes a customized desgin which looks like their original website. I had to find out, that
+this process wasn&amp;rsquo;t that compatible with my expectation how to develop code
+and Shopify&amp;rsquo;s integrated webeditor.&lt;/p&gt;
+
+&lt;p&gt;Truth to be told, Shopify&amp;rsquo;s online editor sucks (to be fair, every webeditor sucks when you wan&amp;rsquo;t
+to develop code with it). So I was looking for another solution. Shopify promotes that you can
+develop templates with their &lt;a href=&quot;http://wiki.shopify.com/Shopify_Textmate_Bundle&quot;&gt;Textmate Bundle&lt;/a&gt;.
+Hmm no thank you&amp;hellip; I didn&amp;rsquo;t wanted to install Textmate only for developing one template.&lt;/p&gt;
+
+&lt;p&gt;Then there was this &lt;a href=&quot;http://wiki.shopify.com/Theme_Sync_App&quot;&gt;OSX App&lt;/a&gt; which
+I got recommended from the Shopify Support. You can download &amp;amp; upload your themes with it but
+the performance is terrible. Also a no go.&lt;/p&gt;
+
+&lt;p&gt;The final solution I came up with and using right now is this remarkably gem called
+&lt;a href=&quot;https://github.com/Shopify/shopify_theme&quot;&gt;shopify_theme&lt;/a&gt; from Shopify itself.
+It can watch for changes on theme files and if it detects something, it automatically
+syncs the files to the shop. I just ask myself why they don&amp;rsquo;t list this gem anywhere.
+Maybe I haven&amp;rsquo;t searched enough.&lt;/p&gt;
+
+&lt;p&gt;Anyway. This is how I like to work. Thank you Shopify.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Hansel and Gretel: Witch Hunters</title>
