@@ -4,12 +4,25 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-09T22:49:15+02:00</updated>
+ <updated>2012-09-10T14:29:32+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Programming Languages Influence Network Graph</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/10/programming-languages-influence-network-graph.html"/>
+   <updated>2012-09-10T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/10/programming-languages-influence-network-graph</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/programming-languages-influence-network-graph-ruby.jpg&quot; alt=&quot;Which programming languages influenced ruby and were influenced by ruby&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ramiro Gómez created a graph which shows the different influences of programming languages.
+In the image above, you can see how Ruby was influenced (red lines) by Python or C++ and influenced (blue lines)
+languages like CoffeeScript or Windows PowerShell.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Sky isn't the limit</title>
