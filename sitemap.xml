@@ -180,7 +180,11 @@
         <loc>
             http://danielpuglisi.com/articles/2012/09/10/programming-languages-influence-network-graph.html
         </loc>
-        <lastmod>2012-09-10T14:29:31+02:00</lastmod>
+        <lastmod>2012-09-10T14:56:27+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://danielpuglisi.com/articles/2012/09/11/daughter.html</loc>
+        <lastmod>2012-09-11T19:47:19+02:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/about.html</loc>
@@ -188,14 +192,14 @@
     </url>
     <url>
         <loc>http://danielpuglisi.com/articles/articles/</loc>
-        <lastmod>2012-09-10T14:29:31+02:00</lastmod>
+        <lastmod>2012-09-11T19:47:19+02:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/</loc>
-        <lastmod>2012-09-10T14:29:31+02:00</lastmod>
+        <lastmod>2012-09-11T19:47:19+02:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/tech/tech/</loc>
-        <lastmod>2012-09-10T14:29:31+02:00</lastmod>
+        <lastmod>2012-09-11T19:47:19+02:00</lastmod>
     </url>
 </urlset>
