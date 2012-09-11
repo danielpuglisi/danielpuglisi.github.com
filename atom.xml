@@ -4,7 +4,7 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-11T19:47:20+02:00</updated>
+ <updated>2012-09-11T19:52:25+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
@@ -29,7 +29,7 @@ and strong melodies, the soft and lovely voice and the stunning and dramatic lyr
 &lt;p&gt;But enough from me. The best thing I can do right now is to show you a live session from their song &lt;strong&gt;Youth&lt;/strong&gt;.
 Turn up the volume. Eliminate all background noises. Press play on the video below. Enter full screen mode. Enjoy.&lt;/p&gt;
 
-&lt;iframe src=&quot;http://player.vimeo.com/video/32900076&quot; class=&quot;vimeo&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;http://player.vimeo.com/video/32900076?byline=0&amp;amp;portrait=0&quot; class=&quot;vimeo&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
 
 </content>
  </entry>
