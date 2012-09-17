@@ -4,12 +4,28 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-11T19:52:25+02:00</updated>
+ <updated>2012-09-17T22:10:18+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Programming, Motherfucker. Do you speak it?</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/17/programming-motherfucker-do-you-speak-it.html"/>
+   <updated>2012-09-17T01:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/17/programming-motherfucker-do-you-speak-it</id>
+   <content type="html">&lt;p&gt;Me:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;If you are honest, most of the time you already know what&amp;rsquo;s best for your clients.
+The thing that really needs time is to convince them to use the best solution.
+Because most of the clients don&amp;rsquo;t know what they want or need.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I wrote a new article on our company blog &lt;a href=&quot;http://codegestalt.com/fistbump/2012/09/17/programming-motherfucker&quot;&gt;The Exploding Fistbump&lt;/a&gt;.
+Check it out.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Daughter</title>
