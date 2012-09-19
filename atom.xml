@@ -4,12 +4,22 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-18T17:39:10+02:00</updated>
+ <updated>2012-09-19T17:50:59+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Paris vs New York</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/19/paris-vs-new-york.html"/>
+   <updated>2012-09-19T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/19/paris-vs-new-york</id>
+   <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/49545320?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; class=&quot;vimeo&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>How Barack Obama Gets Things Done</title>
