@@ -31,11 +31,11 @@ module Jekyll
       output = []
       result.movies.sort_by{|x| x.rating}.reverse.map do |movie|
         if movie.created_at + (2*7*24*60*60) > Time.now
-          classname = " class='new'"
+          new = "<span class='new'>NEW</span>"
         else
-          classname = ""
+          new = ""
         end
-        output << "<li#{classname}><a href='#{movie.details}'>#{movie.title}</a></li>"
+        output << "<li>#{new}<a href='#{movie.details}'>#{movie.title}</a></li>"
       end
       output
     end
