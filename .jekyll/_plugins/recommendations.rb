@@ -29,7 +29,14 @@ module Jekyll
     def list_entries(list)
       result = ImdbLists.fetch("http://www.imdb.com/list/aw8wqGRn0LI/")
       output = []
-      output << result.movies.sort_by{|x| x.rating}.reverse.map {|x| "<li><a href='#{x.details}'>#{x.title}</a></li>"}
+      result.movies.sort_by{|x| x.rating}.reverse.map do |movie|
+        if movie.created_at + (2*7*24*60*60) > Time.now
+          classname = " class='new'"
+        else
+          classname = ""
+        end
+        output << "<li#{classname}><a href='#{movie.details}'>#{movie.title}</a></li>"
+      end
       output
     end
 

@@ -87,9 +87,10 @@ body
         li
           list-style: none
           display: inline-block
-          line-height: 33px
+          line-height: 35px
+          position: relative
           a
-            padding: 5px
+            padding: 6px 5px
             margin: 2px
             background: #f7f7f7
             color: $black1
@@ -97,8 +98,18 @@ body
               background: $red1
               color: #fff
               +text-shadow($red1 - #333 0 -1px 1px)
-      &:last-child
-        margin-right: 0
+        .new:before
+          content: "NEW"
+          font-weight: 600
+          background: $yellow1
+          font-size: 8px
+          position: absolute
+          color: #fff
+          top: -1px
+          right: -1px
+          line-height: 10px
+          padding: 1px 2px
+          +text-shadow($red1 - #333 0 -1px 1px)
 
   .pagination
     font-size: 12px
