@@ -74,6 +74,31 @@ body
     .youtube, .vimeo, .flickr-slideshow
       width: 880px
       height: 495px
+    .recommendations .list
+      header
+        h2
+          margin-bottom: -20px
+          font-size: 15px
+          .meta
+            font-weight: 400
+            padding-left: 3px
+      ul
+        padding: 0
+        li
+          list-style: none
+          display: inline-block
+          line-height: 33px
+          a
+            padding: 5px
+            margin: 2px
+            background: #f7f7f7
+            color: $black1
+            &:hover
+              background: $red1
+              color: #fff
+              +text-shadow($red1 - #333 0 -1px 1px)
+      &:last-child
+        margin-right: 0
 
   .pagination
     font-size: 12px
