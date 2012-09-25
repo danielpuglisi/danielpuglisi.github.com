@@ -4,12 +4,22 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-25T08:31:38+02:00</updated>
+ <updated>2012-09-25T16:35:51+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Oculus Rift</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/25/oculus-rift.html"/>
+   <updated>2012-09-25T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/25/oculus-rift</id>
+   <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/49294325?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; class=&quot;vimeo&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Recommendations</title>
