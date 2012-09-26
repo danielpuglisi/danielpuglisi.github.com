@@ -4,12 +4,23 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-25T16:35:51+02:00</updated>
+ <updated>2012-09-26T12:39:02+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Linus Torvalds goes off on Linux and Git</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/26/linus-torvalds-goes-off-on-linux-and-git.html"/>
+   <updated>2012-09-26T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/26/linus-torvalds-goes-off-on-linux-and-git</id>
+   <content type="html">&lt;p&gt;Linus Torvalds:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The first Git For Dummies and Git Visual Quickstart books are going to be out in a couple of months, and that is the beginning of the end as far as I’m concerned. Those books mean the end of git expertise and github reputation as reliable indicators of geek status. Once a technology is adopted by the masses the extreme geeks find something more esoteric. Look at what happened to Ruby on Rails. The people stumbling their way through Rails to-do list tutorials have never even heard of DHH.&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Oculus Rift</title>
