@@ -4,12 +4,22 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-09-26T12:39:02+02:00</updated>
+ <updated>2012-09-27T08:52:33+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Brace yourself, Megabox is coming</title>
+   <link href="http://danielpuglisi.com/articles/2012/09/26/brace-yourself-megabox-is-coming.html"/>
+   <updated>2012-09-26T01:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/09/26/brace-yourself-megabox-is-coming</id>
+   <content type="html">&lt;iframe class=&quot;youtube&quot; src=&quot;http://www.youtube.com/embed/Kw04ckfO-yA&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Linus Torvalds goes off on Linux and Git</title>
