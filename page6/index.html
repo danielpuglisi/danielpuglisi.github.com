@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    <title>Daniel Puglisi - Designer. Developer. Photography Enthusiast.</title>
+  
+  <meta name="author" content="Daniel Puglisi" />
+  <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta property="og:description" content="{% for post in paginator.posts %}
+
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% when 'quote' %}
+    {% include quote.html %}
+  {% endcase %} 
+
+{% endfor %}
+
+{% include pagination.html %}
+" />
+  <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32260198-1']);
+    _gaq.push(['_setDomainName', 'danielpuglisi.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+</head>
+<body>
+  <aside id="left">
+    <section id="sidebar">
+      <section id="header" class="box">
+        <a href="/"><img src="/images/avatar.jpg" class="circle"></a>
+      </section>
+      <div class="ribbon">
+        <span>
+          Hi, I'm <a href="/about.html">Daniel</a>
+        </span>
+      </div>
+      <div id="me">
+        I work as a Designer <br />and Developer at <a href="http://codegestalt.com">Codegestalt</a>.
+      </div>
+      <fieldset>
+        <legend class="section-title">Social</legend>
+        <p class="links">
+          <a href="https://github.com/danielpuglisi">GitHub</a> <span class="bullet"></span>
+          <a href="https://twitter.com/#!/danielpuglisi">Twitter</a> <span class="bullet"></span>
+          <a href="http://www.flickr.com/photos/danielpuglisi/">Flickr</a>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend class="section-title">More</legend>
+        <p class="links">
+          <a href="/about.html">About</a> <span class="bullet"></span>
+          <a href="/recommendations.html">Recs.</a> <span class="bullet"></span>
+          <a href="http://feeds.feedburner.com/danielpuglisi">RSS</a>
+        </p>
+      </fieldset>
+      <!-- <footer> -->
+      <!--   <a href="http://feeds.feedburner.com/danielpuglisi">RSS</a> - <a href="/about.html">About</a> -->
+      <!-- </footer> -->
+    </section>
+  </aside>
+  <section id="right">
+
+    
+
+  
+    <article class="post">
+  <div class="inner">
+    <header>
+      <h2>
+        
+          <a href="/personal/2012/06/16/reading-day.html">Reading day</a> 
+        
+      </h2>
+      <div class="meta">June 16, 2012</div>
+    </header>
+    <p><img src="http://farm8.staticflickr.com/7223/7379055052_8e1883938e_z.jpg" alt="Reading Day - 1" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8149/7379685448_98af1cb3da_z.jpg" alt="Reading Day - 2" /></p>
+
+
+
+
+<p><img src="http://farm8.staticflickr.com/7104/7379684018_68a239bbec_z.jpg" alt="Reading Day - 3" /></p>
+
+
+    
+  </div>
+</article>
+
+   
+
+
+
+<div class="pagination-wrapper">
+  <div class="pagination">
+  
+    <span class="previous">
+      
+        <a href="/page5">Previous</a>
+      
+    </span>
+  
+
+  <span class="extended">
+    <span class="page">
+      
+      <a href="/">1</a>
+      
+    </span>
+
+    
+      <span class="page">
+        
+          <a href="/page2">2</a>
+        
+      </span>
+    
+      <span class="page">
+        
+          <a href="/page3">3</a>
+        
+      </span>
+    
+      <span class="page">
+        
+          <a href="/page4">4</a>
+        
+      </span>
+    
+      <span class="page">
+        
+          <a href="/page5">5</a>
+        
+      </span>
+    
+      <span class="page">
+        
+          <span class="current-page">6</span>
+        
+      </span>
+    
+  </span>
+
+  
+    <span class="next disabled">
+      <span>Next</span>
+    </span>
+  
+  </div>
+</div>
+
+
+
+  </section>
+</body>
+</html>
