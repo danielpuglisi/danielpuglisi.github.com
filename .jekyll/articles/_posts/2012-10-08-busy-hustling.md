@@ -15,4 +15,4 @@ Until then, I keep hustling and you should too.
 
 **Note:** Grammar Nazi may not approve but you know what?
 
-![I dont fucking care](http://i159.photobucket.com/albums/t140/ebony-tan/LOwum.gif)
+![I dont fucking care](http://24.media.tumblr.com/tumblr_mah7frKwHW1qzsj6so1_400.gif)
