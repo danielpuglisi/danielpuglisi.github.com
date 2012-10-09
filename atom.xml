@@ -4,12 +4,26 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-10-08T22:35:37+02:00</updated>
+ <updated>2012-10-09T13:17:03+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Automating with convention: Introducing sub</title>
+   <link href="http://danielpuglisi.com/articles/2012/10/09/automating-with-convention-introducing-sub.html"/>
+   <updated>2012-10-09T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/10/09/automating-with-convention-introducing-sub</id>
+   <content type="html">&lt;p&gt;Nick:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;When I started my on-call shifts, we had pretty little in the way of automation for day-to-day issues. Tasks like SSH’ing into our cluster, starting a Rails console, or doing a deep search through our gigantic mail directories, were either shelved away in someone’s bashrc, history log, or just ingrained into someone’s memory. This pain was also felt by a few other of my fellow programmers, and we started cobbling together a Git repo simply named “37s shell scripts”.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;We had something similiar in mind for our Codegestalt environment and &lt;strong&gt;&lt;a href=&quot;https://github.com/37signals/sub&quot;&gt;sub&lt;/a&gt;&lt;/strong&gt;
+looks like a good solution to start instead of doing everything from scratch.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Busy hustling</title>
