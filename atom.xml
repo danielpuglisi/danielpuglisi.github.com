@@ -4,12 +4,36 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-10-09T13:17:07+02:00</updated>
+ <updated>2012-10-10T14:46:12+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>HTML5 Fullscreen API Attack</title>
+   <link href="http://danielpuglisi.com/articles/2012/10/10/html5-fullscreen-api-attack.html"/>
+   <updated>2012-10-10T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/10/10/html5-fullscreen-api-attack</id>
+   <content type="html">&lt;p&gt;Feross Aboukhadijeh:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Links are the bread and butter of the web. People click links all day long — people are pretty trained to think that clicking a link on the web is safe. Saavy users may check the link’s destination in the status bar before clicking, however, in this case it won’t do them any good.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Additional security tips:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Don&amp;rsquo;t use Internet Explorer, download a better browser &lt;a href=&quot;https://www.google.com/intl/en/chrome/browser/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t use Windows, download or buy a better OS &lt;a href=&quot;http://www.ubuntu.com/&quot;&gt;here&lt;/a&gt; or &lt;a href=&quot;http://www.apple.com/osx/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t use Microsoft products at all, they are shitty anyway&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t listen to people who say &amp;ldquo;people who say Microsoft is shit have no idea&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Read &lt;a href=&quot;http://www.vanwensveen.nl/rants/microsoft/IhateMS_1.html&quot;&gt;this&lt;/a&gt; article and share it with your friends&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;strong&gt;By the way&lt;/strong&gt;: I don&amp;rsquo;t like Microsoft&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Automating with convention: Introducing sub</title>
