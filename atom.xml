@@ -4,12 +4,22 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-10-11T18:12:54+02:00</updated>
+ <updated>2012-10-15T20:35:47+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Django Unchained Trailer Nr. 2</title>
+   <link href="http://danielpuglisi.com/articles/2012/10/15/django-unchained-trailer-nr-2.html"/>
+   <updated>2012-10-15T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/10/15/django-unchained-trailer-nr-2</id>
+   <content type="html">&lt;iframe class=&quot;youtube&quot; src=&quot;http://www.youtube.com/embed/-sbCLChLcFM&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>What if money was no object?</title>
