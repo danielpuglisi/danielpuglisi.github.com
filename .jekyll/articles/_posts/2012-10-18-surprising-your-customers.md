@@ -1,6 +1,6 @@
 ---
 layout: link
-title: "Suprising Your Customers"
+title: "Surprising Your Customers"
 date: 2012-10-18 0
 link: "http://37signals.com/svn/posts/3270-surprising-your-customers"
 permalink: "/articles/2012/10/18/suprising-your-customers.html"
