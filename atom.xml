@@ -4,12 +4,23 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-10-18T14:25:47+02:00</updated>
+ <updated>2012-10-19T15:51:54+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>typecast</title>
+   <link href="http://danielpuglisi.com/articles/2012/10/19/typecast.html"/>
+   <updated>2012-10-19T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/10/19/typecast</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/typecast.jpg&quot; alt=&quot;typecast - create better web typography with less hassle&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Looks interesting. I&amp;rsquo;ve registered for the beta, hopefully I&amp;rsquo;ll get an invite in the next few days.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Surprising Your Customers</title>
