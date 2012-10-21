@@ -279,16 +279,22 @@
         <lastmod>2012-10-21T13:42:00+02:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://danielpuglisi.com/articles/2012/10/21/about-a-worst-sequel-and-microsoft-cereals.html
+        </loc>
+        <lastmod>2012-10-21T19:34:56+02:00</lastmod>
+    </url>
+    <url>
         <loc>http://danielpuglisi.com/about.html</loc>
         <lastmod>2012-09-25T08:30:52+02:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/articles/articles/</loc>
-        <lastmod>2012-10-21T13:42:00+02:00</lastmod>
+        <lastmod>2012-10-21T19:34:56+02:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/</loc>
-        <lastmod>2012-10-21T13:42:00+02:00</lastmod>
+        <lastmod>2012-10-21T19:34:56+02:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/recommendations.html</loc>
@@ -296,6 +302,6 @@
     </url>
     <url>
         <loc>http://danielpuglisi.com/tech/tech/</loc>
-        <lastmod>2012-10-21T13:42:00+02:00</lastmod>
+        <lastmod>2012-10-21T19:34:56+02:00</lastmod>
     </url>
 </urlset>
