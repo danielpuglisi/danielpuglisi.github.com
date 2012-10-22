@@ -28,10 +28,14 @@ a
       &:hover
         border-bottom: 1px dashed $gray1 - #333
 
-#right
+article
   footer /* for the English note */
     font-size: 13px
     font-style: italic
+    #disqus_thread
+      margin-top: 30px
+
+// Default article layout
 
 article
   header
@@ -93,6 +97,18 @@ article
   .image-description
     color: $black1 + #555
 
+  // Custom helpers for articles
+
+  .center
+    text-align: center
+    
+  .big
+    font-size: 30px
+    line-height: 50px
+    font-weight: 200
+
+// Link layout
+
 .link
   h2
     font-size: 22px
@@ -103,6 +119,8 @@ article
       font-size: 24px
       &:hover
         border-bottom: 1px solid $red1
+
+// Quote layout
 
 .quote
   blockquote

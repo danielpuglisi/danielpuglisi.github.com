@@ -4,12 +4,31 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-10-22T21:07:21+02:00</updated>
+ <updated>2012-10-22T21:31:57+02:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>A quick redesign in under one hour</title>
+   <link href="http://danielpuglisi.com/articles/2012/10/22/a-quick-redesign-in-under-one-hour.html"/>
+   <updated>2012-10-22T00:00:00+02:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/10/22/a-quick-redesign-in-under-one-hour</id>
+   <content type="html">&lt;p&gt;I just redesigned my blog in under one hour. The changes contain simplier design,
+bigger headlines and more possibilites to format single elements like I want to
+(Plus my face isn&amp;rsquo;t watching you on every single page).&lt;/p&gt;
+
+&lt;p&gt;What do you think about the new design? Do you like it? What do you not like?
+Questions about questions. Let me know in the comments.&lt;/p&gt;
+
+&lt;div class=&quot;center big&quot;&gt;
+  With &amp;hearts; from Daniel
+&lt;/div&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>About a bad sequel and Microsoft cereals</title>
