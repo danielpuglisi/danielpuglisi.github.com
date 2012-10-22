@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About a worst sequel and Microsoft cereals"
+title: "About a bad sequel and Microsoft cereals"
 date: 2012-10-21 1
 permalink: "/articles/2012/10/21/about-a-worst-sequel-and-microsoft-cereals.html"
 ---
