@@ -1,0 +1,20 @@
+---
+layout: layout
+title: "Blog | Daniel Puglisi"
+base: blog/
+---
+
+{% for post in paginator.posts %}
+
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% when 'quote' %}
+    {% include quote.html %}
+  {% endcase %} 
+
+{% endfor %}
+
+{% include pagination.html %}

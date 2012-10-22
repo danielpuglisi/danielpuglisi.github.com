@@ -3,12 +3,26 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   
-    <title>Daniel Puglisi | Daniel Puglisi</title>
+    <title>Blog | Daniel Puglisi | Daniel Puglisi</title>
   
   <meta name="author" content="Daniel Puglisi" />
   <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-  
+  <meta property="og:description" content="{% for post in paginator.posts %}
+
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% when 'quote' %}
+    {% include quote.html %}
+  {% endcase %} 
+
+{% endfor %}
+
+{% include pagination.html %}
+" />
   <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -27,53 +41,90 @@
   </script>
 </head>
 <body>
-  <aside id="left">
-    <section id="sidebar">
-      <section id="header" class="box">
-        <a href="/"><img src="/images/avatar.jpg" class="circle"></a>
-      </section>
-      <div class="ribbon">
-        <span>
-          Hi, I'm <a href="/about.html">Daniel</a>
-        </span>
+  <section class="full-width">
+
+    <section class="header">
+      <div class="wrapper">
+        <div class="inner">
+          <a href="/" class="logo"><img src="/images/logo.png"></a>
+          Hi, I'm <a href="/about.html">Daniel Puglisi</a>. Developer, Designer and Co-Founder of Codegestalt.
+          <div class="navigation">
+            <!-- <a href="/blog">Blog</a> -->
+            <s><a href="#">Stuff I made</a></s>
+            <a href="http://twitter.com/danielpuglisi">Twitter</a>
+            <a href="http://github.com/danielpuglisi">GitHub</a>
+            <a href="http://flickr.com/people/danielpuglisi">Flickr</a>
+          </div>
+        </div>
       </div>
-      <div id="me">
-        I work as a Designer <br />and Developer at <a href="http://codegestalt.com">Codegestalt</a>.
-      </div>
-      <fieldset>
-        <legend class="section-title">Social</legend>
-        <p class="links">
-          <a href="https://github.com/danielpuglisi">GitHub</a> <span class="bullet"></span>
-          <a href="https://twitter.com/#!/danielpuglisi">Twitter</a> <span class="bullet"></span>
-          <a href="http://www.flickr.com/photos/danielpuglisi/">Flickr</a>
-        </p>
-      </fieldset>
-      <fieldset>
-        <legend class="section-title">More</legend>
-        <p class="links">
-          <a href="/about.html">About</a> <span class="bullet"></span>
-          <a href="/recommendations.html">Recs.</a> <span class="bullet"></span>
-          <a href="http://feeds.feedburner.com/danielpuglisi">RSS</a>
-        </p>
-      </fieldset>
-      <!-- <footer> -->
-      <!--   <a href="http://feeds.feedburner.com/danielpuglisi">RSS</a> - <a href="/about.html">About</a> -->
-      <!-- </footer> -->
     </section>
-  </aside>
-  <section id="right">
 
     
+
   
     <article class="link">
-  <div class="inner">
-    <header>
-      <h2>
-        <a href="http://devblog.avdi.org/2012/07/09/available-for-pair-programming-appointments/">Stepping off the ledge</a> =>
-      </h2>
-      <div class="meta">July  9, 2012</div>
-    </header>
-    <p>Avdi Grimm:</p>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="https://github.com/blog/1189-investing-in-github">GitHub raises $100M funding</a> &rarr;
+        </h2>
+        <div class="meta">July 10, 2012</div>
+      </header>
+      <blockquote><p>Today we are partnering with Andreessen Horowitz and announcing our first ever outside investment.</p></blockquote>
+
+
+
+
+<p>Today GitHub announced that they are <a href="http://peter.a16z.com/2012/07/09/software-eats-software-development">partnering with Andreessen Horowitz</a>.
+I hope this is going to end well for them&hellip;</p>
+
+
+    </div>
+  </div>
+</article>
+
+   
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/2012/07/10/game-of-thrones-meets-minecraft.html">Game of Thrones meets Minecraft</a> 
+          
+        </h2>
+        <div class="meta">July 10, 2012</div>
+      </header>
+      <iframe class="youtube" src="http://www.youtube.com/embed/w0gLX_Kn_S8" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+      
+    </div>
+  </div>
+</article>
+
+   
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://devblog.avdi.org/2012/07/09/available-for-pair-programming-appointments/">Stepping off the ledge</a> &rarr;
+        </h2>
+        <div class="meta">July  9, 2012</div>
+      </header>
+      <p>Avdi Grimm:</p>
 
 
 
@@ -86,21 +137,25 @@
 <p>An interesting read up from Avdi Grimm about Avdi Grimm and his feelings about taking the step and being self-employed.</p>
 
 
+    </div>
   </div>
 </article>
 
    
 
+
+
   
     <article class="link">
-  <div class="inner">
-    <header>
-      <h2>
-        <a href="http://www.amazon.de/gp/product/B0067TGSOK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B0067TGSOK&linkCode=as2&tag=httpdanielpuc-21">The 100$ Startup</a> =>
-      </h2>
-      <div class="meta">July  9, 2012</div>
-    </header>
-    <p>Daniel H. Pink, New York Times bestselling author of Drive and A Whole New Mind:</p>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://www.amazon.de/gp/product/B0067TGSOK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=B0067TGSOK&linkCode=as2&tag=httpdanielpuc-21">The 100$ Startup</a> &rarr;
+        </h2>
+        <div class="meta">July  9, 2012</div>
+      </header>
+      <p>Daniel H. Pink, New York Times bestselling author of Drive and A Whole New Mind:</p>
 
 
 
@@ -113,41 +168,49 @@
 <p>That&rsquo;s the book I&rsquo;m reading right now. Easy written, great tips, interesting stories.</p>
 
 
+    </div>
   </div>
 </article>
 
    
+
+
 
   
     <article class="post">
-  <div class="inner">
-    <header>
-      <h2>
-        
-          <a href="/2012/06/30/chillin.html">Chillin</a> 
-        
-      </h2>
-      <div class="meta">June 30, 2012</div>
-    </header>
-    <p><img src="http://farm9.staticflickr.com/8022/7467893074_d18e8babc6_z.jpg" alt="&quot;whut chu doin?&quot; - &quot;chillin&quot;" /></p>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/2012/06/30/chillin.html">Chillin</a> 
+          
+        </h2>
+        <div class="meta">June 30, 2012</div>
+      </header>
+      <p><img src="http://farm9.staticflickr.com/8022/7467893074_d18e8babc6_z.jpg" alt="&quot;whut chu doin?&quot; - &quot;chillin&quot;" /></p>
 
 
-    
+      
+    </div>
   </div>
 </article>
 
    
 
+
+
   
     <article class="link">
-  <div class="inner">
-    <header>
-      <h2>
-        <a href="https://elasticsales.com/blog/2012/05/07/startup-hustler/">The Startup Hustler</a> =>
-      </h2>
-      <div class="meta">June 29, 2012</div>
-    </header>
-    <blockquote><p>A hustler is someone who is single minded in his quest to get results. Nothing else motivates him. Nothing else matters. To hustle you have to think big picture and you have to be driven by creating significant results for your venture. It doesn&rsquo;t matter if it&rsquo;s closing deals or closing a round of funding &ndash; a startup hustler gets things done that drive revenue for the company and that are crucial for survival and for growth.</p></blockquote>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="https://elasticsales.com/blog/2012/05/07/startup-hustler/">The Startup Hustler</a> &rarr;
+        </h2>
+        <div class="meta">June 29, 2012</div>
+      </header>
+      <blockquote><p>A hustler is someone who is single minded in his quest to get results. Nothing else motivates him. Nothing else matters. To hustle you have to think big picture and you have to be driven by creating significant results for your venture. It doesn&rsquo;t matter if it&rsquo;s closing deals or closing a round of funding &ndash; a startup hustler gets things done that drive revenue for the company and that are crucial for survival and for growth.</p></blockquote>
 
 
 
@@ -155,23 +218,27 @@
 <p>We also have one of these &ldquo;Startup Hustlers&rdquo;. Let me introduce to you: <a href="https://twitter.com/freshfey">@freshfey</a></p>
 
 
+    </div>
   </div>
 </article>
 
    
 
+
+
   
     <article class="post">
-  <div class="inner">
-    <header>
-      <h2>
-        
-          <a href="/personal/2012/06/28/summer-maddafakkas.html">Spotify Playlist: Summer Maddafakkas</a> 
-        
-      </h2>
-      <div class="meta">June 28, 2012</div>
-    </header>
-    <iframe src="https://embed.spotify.com/?uri=spotify:user:116689447:playlist:4x748cfeeSX9Ie5SATVmDv&theme=white&view=coverart" frameborder="0" allowtransparency="true" class="spotify"></iframe>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/personal/2012/06/28/summer-maddafakkas.html">Spotify Playlist: Summer Maddafakkas</a> 
+          
+        </h2>
+        <div class="meta">June 28, 2012</div>
+      </header>
+      <iframe src="https://embed.spotify.com/?uri=spotify:user:116689447:playlist:4x748cfeeSX9Ie5SATVmDv&theme=white&view=coverart" frameborder="0" allowtransparency="true" class="spotify"></iframe>
 
 
 
@@ -179,24 +246,28 @@
 <p>A few days ago, I released a new playlist on <a href="http://www.spotify.com/">Spotify</a>. It&rsquo;s all about summer and there are some refreshing tracks in it. Check it out and if you have something you would like to see on the playlist, please give me a shout.</p>
 
 
-    
+      
+    </div>
   </div>
 </article>
 
    
 
+
+
   
     <article class="post">
-  <div class="inner">
-    <header>
-      <h2>
-        
-          <a href="/personal/2012/06/24/rulu-2012.html">Rulu 2012</a> 
-        
-      </h2>
-      <div class="meta">June 24, 2012</div>
-    </header>
-    <p>So Rulu 2012 is over and to say it right ahead: for me, it was just awesome! It was my first (ruby) developer conference at all and I could really benefit from it.</p>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/personal/2012/06/24/rulu-2012.html">Rulu 2012</a> 
+          
+        </h2>
+        <div class="meta">June 24, 2012</div>
+      </header>
+      <p>So Rulu 2012 is over and to say it right ahead: for me, it was just awesome! It was my first (ruby) developer conference at all and I could really benefit from it.</p>
 
 
 
@@ -303,24 +374,28 @@ except of &ldquo;bonjour&rdquo;, &ldquo;bonsoir&rdquo; or &ldquo;bon appetit&rdq
 from the presentations. As soon as they are available, I&rsquo;ll post the link in this blog.</p>
 
 
-    
+      
+    </div>
   </div>
 </article>
 
    
 
+
+
   
     <article class="post">
-  <div class="inner">
-    <header>
-      <h2>
-        
-          <a href="/personal/2012/06/18/we-are-going-to-france.html">We are going to France</a> 
-        
-      </h2>
-      <div class="meta">June 18, 2012</div>
-    </header>
-    <p>Yes, thats true. We are going to France. <a href="http://rodrigohaenggi.com">Rodrigo</a> and I.</p>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/personal/2012/06/18/we-are-going-to-france.html">We are going to France</a> 
+          
+        </h2>
+        <div class="meta">June 18, 2012</div>
+      </header>
+      <p>Yes, thats true. We are going to France. <a href="http://rodrigohaenggi.com">Rodrigo</a> and I.</p>
 
 
 
@@ -368,24 +443,28 @@ Rodrigo and I are passionate Ruby developers and I think we can learn much from 
 <p>&ldquo;Excuse moi, je suis un tourist.&rdquo;</p>
 
 
-    
+      
+    </div>
   </div>
 </article>
 
    
 
+
+
   
     <article class="post">
-  <div class="inner">
-    <header>
-      <h2>
-        
-          <a href="/personal/2012/06/17/soon.html">Soon...</a> 
-        
-      </h2>
-      <div class="meta">June 17, 2012</div>
-    </header>
-    <p>Tomorrow will be my last examination day and with this, the last day of my apprenticeship. Officially my apprenticeship lasts until the fifth of august, but it doesn&rsquo;t feel that way.</p>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/personal/2012/06/17/soon.html">Soon...</a> 
+          
+        </h2>
+        <div class="meta">June 17, 2012</div>
+      </header>
+      <p>Tomorrow will be my last examination day and with this, the last day of my apprenticeship. Officially my apprenticeship lasts until the fifth of august, but it doesn&rsquo;t feel that way.</p>
 
 
 
@@ -398,98 +477,78 @@ Rodrigo and I are passionate Ruby developers and I think we can learn much from 
 <p>Last examination, I&rsquo;m coming.</p>
 
 
-    
-  </div>
-</article>
-
-   
-
-  
-    <article class="post">
-  <div class="inner">
-    <header>
-      <h2>
-        
-          <a href="/personal/2012/06/16/reading-day.html">Reading day</a> 
-        
-      </h2>
-      <div class="meta">June 16, 2012</div>
-    </header>
-    <p><img src="http://farm8.staticflickr.com/7223/7379055052_8e1883938e_z.jpg" alt="Reading Day - 1" /></p>
-
-
-
-
-<p><img src="http://farm9.staticflickr.com/8149/7379685448_98af1cb3da_z.jpg" alt="Reading Day - 2" /></p>
-
-
-
-
-<p><img src="http://farm8.staticflickr.com/7104/7379684018_68a239bbec_z.jpg" alt="Reading Day - 3" /></p>
-
-
-    
+      
+    </div>
   </div>
 </article>
 
    
 
 
-<div class="pagination-wrapper">
-  <div class="pagination">
-  
-    <span class="previous">
+
+<div class="full-width">
+  <div class="pagination-wrapper">
+    <div class="pagination">
+    
+      <span class="previous">
+        
+          <a href="/blog/page5">Previous</a>
+        
+      </span>
+    
+
+    <span class="extended">
+      <span class="page">
+        
+        <a href="/blog/">1</a>
+        
+      </span>
+
       
-        <a href="/articles/page5">Previous</a>
+        <span class="page">
+          
+            <a href="/blog/page2">2</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page3">3</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page4">4</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page5">5</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <span class="current-page">6</span>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page7">7</a>
+          
+        </span>
       
     </span>
-  
-
-  <span class="extended">
-    <span class="page">
-      
-      <a href="/articles/">1</a>
-      
-    </span>
 
     
-      <span class="page">
-        
-          <a href="/articles/page2">2</a>
-        
+      <span class="next">
+        <a href="/blog/page7">Next</a>
       </span>
     
-      <span class="page">
-        
-          <a href="/articles/page3">3</a>
-        
-      </span>
-    
-      <span class="page">
-        
-          <a href="/articles/page4">4</a>
-        
-      </span>
-    
-      <span class="page">
-        
-          <a href="/articles/page5">5</a>
-        
-      </span>
-    
-      <span class="page">
-        
-          <span class="current-page">6</span>
-        
-      </span>
-    
-  </span>
-
-  
-    <span class="next disabled">
-      <span>Next</span>
-    </span>
-  
+    </div>
   </div>
 </div>
 

@@ -1,18 +1,20 @@
 <article class="post">
-  <div class="inner">
-    <header>
-      <h2>
-        {% if single %}
-          {{ post.title }}
-        {% else %}
-          <a href="{{ post.url }}">{{ post.title }}</a> 
-        {% endif %}
-      </h2>
-      <div class="meta">{{ post.date | date: "%B %e, %Y" }}</div>
-    </header>
-    {{ post.content | markdownify }}
-    {% if single %}
-      {% include footer.html %}
-    {% endif %}
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          {% if single %}
+            {{ post.title }}
+          {% else %}
+            <a href="{{ post.url }}">{{ post.title }}</a> 
+          {% endif %}
+        </h2>
+        <div class="meta">{{ post.date | date: "%B %e, %Y" }}</div>
+      </header>
+      {{ post.content | markdownify }}
+      {% if single %}
+        {% include footer.html %}
+      {% endif %}
+    </div>
   </div>
 </article>

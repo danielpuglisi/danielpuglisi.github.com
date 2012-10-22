@@ -1,11 +1,13 @@
 <article class="link">
-  <div class="inner">
-    <header>
-      <h2>
-        <a href="{{ post.link }}">{{ post.title }}</a> =>
-      </h2>
-      <div class="meta">{{ post.date | date: "%B %e, %Y" }}</div>
-    </header>
-    {{ post.content | markdownify }}
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="{{ post.link }}">{{ post.title }}</a> &rarr;
+        </h2>
+        <div class="meta">{{ post.date | date: "%B %e, %Y" }}</div>
+      </header>
+      {{ post.content | markdownify }}
+    </div>
   </div>
 </article>

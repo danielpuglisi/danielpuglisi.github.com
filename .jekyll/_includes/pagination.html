@@ -1,47 +1,49 @@
-<div class="pagination-wrapper">
-  <div class="pagination">
-  {% if paginator.previous_page %}
-    <span class="previous">
-      {% if paginator.previous_page == 1 %}
-        <a href="/">Previous</a>
-      {% else %}
-        <a href="/{{page.base}}page{{paginator.previous_page}}">Previous</a>
-      {% endif %}
-    </span>
-  {% else %}
-    <span class="previous disabled">
-      <span>Previous</span>
-    </span>
-  {% endif %}
-
-  <span class="extended">
-    <span class="page">
-      {% if paginator.page == 1 %}
-        <span class="current-page">1</span>
-      {% else %}
-      <a href="/{{page.base}}">1</a>
-      {% endif %}
-    </span>
-
-    {% for count in (2..paginator.total_pages) %}
-      <span class="page">
-        {% if count == paginator.page %}
-          <span class="current-page">{{count}}</span>
+<div class="full-width">
+  <div class="pagination-wrapper">
+    <div class="pagination">
+    {% if paginator.previous_page %}
+      <span class="previous">
+        {% if paginator.previous_page == 1 %}
+          <a href="/">Previous</a>
         {% else %}
-          <a href="/{{page.base}}page{{count}}">{{count}}</a>
+          <a href="/{{page.base}}page{{paginator.previous_page}}">Previous</a>
         {% endif %}
       </span>
-    {% endfor %}
-  </span>
+    {% else %}
+      <span class="previous disabled">
+        <span>Previous</span>
+      </span>
+    {% endif %}
 
-  {% if paginator.next_page %}
-    <span class="next">
-      <a href="/{{page.base}}page{{paginator.next_page}}">Next</a>
+    <span class="extended">
+      <span class="page">
+        {% if paginator.page == 1 %}
+          <span class="current-page">1</span>
+        {% else %}
+        <a href="/{{page.base}}">1</a>
+        {% endif %}
+      </span>
+
+      {% for count in (2..paginator.total_pages) %}
+        <span class="page">
+          {% if count == paginator.page %}
+            <span class="current-page">{{count}}</span>
+          {% else %}
+            <a href="/{{page.base}}page{{count}}">{{count}}</a>
+          {% endif %}
+        </span>
+      {% endfor %}
     </span>
-  {% else %}
-    <span class="next disabled">
-      <span>Next</span>
-    </span>
-  {% endif %}
+
+    {% if paginator.next_page %}
+      <span class="next">
+        <a href="/{{page.base}}page{{paginator.next_page}}">Next</a>
+      </span>
+    {% else %}
+      <span class="next disabled">
+        <span>Next</span>
+      </span>
+    {% endif %}
+    </div>
   </div>
 </div>
