@@ -34,7 +34,7 @@ def create_file(type)
   permalink = "/#{category_dir}/#{permalink_date}/#{title.slug}.html"
   filename = "#{file_date}-#{title.slug}.md"
 
-  filepath = "#{@base}/#{category_dir}/_posts/#{filename}"
+  filepath = "#{@base}/blog/#{category_dir}/_posts/#{filename}"
 
   FileUtils.touch(filepath)
 
@@ -104,7 +104,7 @@ end
 def get_sort_number(date)
   amount = 0
   @categories.each do |category|
-    files = Dir.entries("#{@base}/#{category}/_posts").select {|f| f.match /^#{date}/}
+    files = Dir.entries("#{@base}/blog/#{category}/_posts").select {|f| f.match /^#{date}/}
     amount += files.count
   end
   amount.to_s
