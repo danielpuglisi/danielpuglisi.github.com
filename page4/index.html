@@ -8,21 +8,7 @@
   <meta name="author" content="Daniel Puglisi" />
   <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-  <meta property="og:description" content="{% for post in paginator.posts %}
-
-  {% case post.layout %}
-  {% when 'post' %}
-    {% include post.html %}
-  {% when 'link' %}
-    {% include link.html %}
-  {% when 'quote' %}
-    {% include quote.html %}
-  {% endcase %} 
-
-{% endfor %}
-
-{% include pagination.html %}
-" />
+  <meta property="og:description" content="&lt;section class=&quot;home&quot;&gt; &lt;div class=&quot;wrapper&quot;&gt; &lt;div class=&quot;inner&quot;&gt; &lt;header class=&quot;header&quot;&gt; &lt;p&gt;Hi, my name is &lt;b&gt;Daniel&lt;/b&gt;&lt;/p&gt; &lt;p class=&quot;what-am-i medium&quot;&gt;Designer, Developer &amp; Co-Founder of Codegestalt&lt;/p&gt; &lt;/header&gt; &lt;div class=&quot;sections&quot;&gt; &lt;div class=&quot;work disabled&quot;&gt; &lt;!-- &lt;a href=&quot;#&quot;&gt; --&gt; &lt;img src=&quot;/images/work-disabled.png&quot;&gt; &lt;h1&gt;Projects&lt;/h1&gt; &lt;!-- &lt;p&gt;I like to build, form &amp; create things&lt;/p&gt; --&gt; &lt;!-- &lt;/a&gt; --&gt; &lt;!-- &lt;div class=&quot;coming-soon&quot;&gt;coming soon&lt;/div&gt; --&gt; &lt;/div&gt; &lt;div class=&quot;blog&quot;&gt; &lt;a href=&quot;/blog&quot;&gt; &lt;img src=&quot;/images/blog.png&quot;&gt; &lt;h1&gt;Blog&lt;/h1&gt; &lt;!-- &lt;p&gt;I believe in passion, &lt;br /&gt;simplicity &amp; communication&lt;/p&gt; --&gt; &lt;/a&gt; &lt;/div&gt; &lt;div class=&quot;about&quot;&gt; &lt;a href=&quot;/about.html&quot;&gt; &lt;img src=&quot;/images/about.png&quot;&gt; &lt;h1&gt;About&lt;/h1&gt; &lt;!--..." />
   <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -43,462 +29,44 @@
 <body>
   <section class="full-width">
 
-    <section class="header">
-      <div class="wrapper">
-        <div class="inner">
-          <a href="/" class="logo"><img src="/images/logo.png"></a>
-          Hi, I'm <a href="/about.html">Daniel Puglisi</a>. Developer, Designer and Co-Founder of Codegestalt.
-          <div class="navigation">
-            <!-- <a href="/blog">Blog</a> -->
-            <s><a href="#">Stuff I made</a></s>
-            <a href="http://twitter.com/danielpuglisi">Twitter</a>
-            <a href="http://github.com/danielpuglisi">GitHub</a>
-            <a href="http://flickr.com/people/danielpuglisi">Flickr</a>
-          </div>
+    <section class="home">
+  <div class="wrapper">
+    <div class="inner">
+      <header class="header">
+        <p>Hi, my name is <b>Daniel</b></p> 
+        <p class="what-am-i medium">Designer, Developer & Co-Founder of Codegestalt</p>
+      </header>
+
+      <div class="sections">
+        <div class="work disabled">
+          <!-- <a href="#"> -->
+            <img src="/images/work-disabled.png">
+            <h1>Projects</h1>
+            <!-- <p>I like to build, form & create things</p> -->
+          <!-- </a> -->
+          <!-- <div class="coming-soon">coming soon</div> -->
+        </div>
+        <div class="blog">
+          <a href="/blog">
+            <img src="/images/blog.png">
+            <h1>Blog</h1>
+            <!-- <p>I believe in passion, <br />simplicity & communication</p> -->
+          </a>
+        </div>
+        <div class="about">
+          <a href="/about.html">
+            <img src="/images/about.png">
+            <h1>About</h1>
+            <!-- <p>I write about my startup <br />life, the web & other cool stuff</p> -->
+          </a>
         </div>
       </div>
-    </section>
 
-    
-
-  
-    <article class="link">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          <a href="https://github.com/blog/1252-how-we-keep-github-fast">How we keep GitHub fast</a> &rarr;
-        </h2>
-        <div class="meta">September  5, 2012</div>
-      </header>
-      <p><img src="https://a248.e.akamai.net/camo.github.com/367fe330bc1ad4431b2a5a3448d21bc59743fc7e/687474703a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031322f6b656570696e672d6769746875622d666173742f6d697373696f6e2d636f6e74726f6c2e706e67" alt="GitHub staff mode" /></p>
-
-
-
-
-<p>An exclusive look into how GitHub is working and how they are keeping things together. This is so cool.</p>
-
-
+      <!-- <p>You find me on Twitter, GitHub & Flickr</p> -->
+      <!-- <p>You can contant me via twitter, email & our public company chatroom</p> -->
     </div>
   </div>
-</article>
-
-   
-
-
-
-  
-    <article class="link">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          <a href="http://www.smashingmagazine.com/2012/08/27/designer-passive-income-experiments/">Passive Income Strategies For Web Designers</a> &rarr;
-        </h2>
-        <div class="meta">August 30, 2012</div>
-      </header>
-      <p>Sacha Greif:</p>
-
-
-
-
-<blockquote><p>Finding ways to earn passive income is a growing concern among many freelance designers. I’ve always loved client work, but I have to admit that the pressure of juggling multiple bosses and constant deadlines eventually started to wear me down.</p></blockquote>
-
-
-
-
-<p>Sacha Greif summarizes his experiences with passive income as a web developer.
-He made money in different areas like designing <strong>Themes</strong>,
-selling <strong>Icons and Vectors</strong>, writing <strong>Books</strong> or building <strong>Products</strong>.</p>
-
-
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="post">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          
-            <a href="/articles/2012/08/29/trolling-like-a-sir.html">Trolling like a sir</a> 
-          
-        </h2>
-        <div class="meta">August 29, 2012</div>
-      </header>
-      <p>Do you always wanted to be a celebrity?</p>
-
-
-
-
-<p>Then maybe the guy from the following video can help you. It apparently works. At least for a few minutes&hellip;</p>
-
-
-
-
-<iframe class="youtube" src="http://www.youtube.com/embed/XYU1a0lTTTw" frameborder="0" allowfullscreen></iframe>
-
-
-
-
-      
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="link">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          <a href="http://droplings.com/">This is Droplings for Mac</a> &rarr;
-        </h2>
-        <div class="meta">August 28, 2012</div>
-      </header>
-      <blockquote><p>It can turn any file on your computer into a branded download page hosted on Dropbox.</p></blockquote>
-
-
-
-
-<p>Cool.</p>
-
-
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="post">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          
-            <a href="/articles/2012/08/27/keep-your-free-heroku-app-alive.html">Keep your Heroku app alive, for free</a> 
-          
-        </h2>
-        <div class="meta">August 27, 2012</div>
-      </header>
-      <p>Maybe you were in this situation before.
-You&rsquo;re developing a website or
-app with <a href="http://rubyonrails.org/">Ruby on Rails</a> and using
-a single <a href="http://www.heroku.com/">Heroku</a>
-dyno to show off your current progress to your customers.
-The thing is, if you are only
-using one dyno for your app,
-Heroku is going to put your app back to sleep after a
-certain time (5 minutes I think?) and this causes your
-app to load slower the next time a request comes in.
-There <a href="https://github.com/github/hubot-scripts/blob/master/src/scripts/keep-alive.coffee">are</a>
-<a href="http://beouk.blogspot.ch/2012/02/keeping-heroku-awake.html">a</a>
-<a href="http://danneu.com/posts/7-keeping-that-free-heroku-dyno-alive-without-feeling-unethical">few</a>
-workarounds already out there, but I wanted to have something simpler.</p>
-
-
-
-
-<p>So I came up with a little shell script:</p>
-
-
-
-
-<script src="https://gist.github.com/3490814.js?file=keep-alive.sh"></script>
-
-
-
-
-<p>This script does nothing more than requesting every single Heroku app which is defined in the array at
-the beginning of the script.</p>
-
-
-
-
-<p>Of course, it would be a little bit overwhelming to call this script
-every 5 minutes by hand, so we are going to create a cronjob.</p>
-
-
-
-
-<p>To accomplish this, we are adding the following line to the <code>/etc/crontab</code> file:</p>
-
-
-
-
-<script src="https://gist.github.com/3490792.js?file=crontab"></script>
-
-
-
-
-<p>This is going to execute the <code>keep-alive.sh</code> script every minute.</p>
-
-
-
-
-<p>To complete the whole thing, put the <code>keep-alive.sh</code> file into the <code>/etc/cron.custom</code> directory
-(you may have to create the directory first) and you are all set.</p>
-
-
-
-
-<p>I run that script on a Linux server, but it should also work with OSX.
-And thats it. The Heroku app shouldn&rsquo;t go back to sleep anymore (as long as your system is running).</p>
-
-
-
-
-<p>Enjoy.</p>
-
-
-      
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="post">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          
-            <a href="/articles/2012/08/25/the-airborne-toxic-event.html">Song of the Week: The Kids Are Ready To Die - The Airborne Toxic Event</a> 
-          
-        </h2>
-        <div class="meta">August 25, 2012</div>
-      </header>
-      <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify:track:0QyYeqnKkMWrVPjwKuvZKi" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-
-
-
-
-<p>Blown.</p>
-
-
-      
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="quote">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          
-            <a href="/articles/2012/08/24/quote-from-alistair-smith.html">A quote to remember</a> 
-          
-        </h2>
-        <div class="meta">August 25, 2012</div>
-      </header>
-      <blockquote>
-        <p>At times of change, the learners are the ones who will inherit the world, while the knowers will be beautifully prepared for a world which no longer exists.</p>
-        <p>- <cite>Alistar Smith</cite></p>
-      </blockquote>
-      
-
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="post">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          
-            <a href="/articles/2012/08/23/self-employed.html">Self-employed &hearts;</a> 
-          
-        </h2>
-        <div class="meta">August 23, 2012</div>
-      </header>
-      <p><img src="http://distilleryimage8.instagram.com/6833d89aecf811e1b55e22000a1e9610_7.jpg" alt="self-employed &lt;3" /></p>
-
-
-      
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="link">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          <a href="http://codegestalt.com/blog/2012/08/20/the-todone-list">The ToDone list</a> &rarr;
-        </h2>
-        <div class="meta">August 20, 2012</div>
-      </header>
-      <p>Me:</p>
-
-
-
-
-<blockquote><p>But a todo list in itself isn&rsquo;t the whole truth in improving my speed and quality of getting things done.
-Another important aspect is, that I have to see what I&rsquo;ve done through the day.
-Productivity isn&rsquo;t just a word or a feeling, for me it has to be visible.</p></blockquote>
-
-
-
-
-<p>I just released a new article over at our company blog. It&rsquo;s about lists and stuff.</p>
-
-
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="post">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          
-            <a href="/articles/2012/08/18/sell-your-crap-pay-your-dept-do-what-you-love.html">Sell your crap. Pay your dept. Do what you love.</a> 
-          
-        </h2>
-        <div class="meta">August 18, 2012</div>
-      </header>
-      <p>Nigel Marsh:</p>
-
-
-
-
-<blockquote><p>There are thousands and thousands of people out there
-living lives of quiet, screaming desperation who work long,
-hard hours, at jobs they hate, to enable them to buy things,
-they don&rsquo;t need to impress people they don&rsquo;t like.</p></blockquote>
-
-
-
-
-<p>Four years ago, Adam Baker and his wife decided to sell all their stuff, pay off their debts and go on
-an one year traveling journey. In the following talk, Adam talks about freedom.
-The freedom which most people today interpret as a cycle of going to school, work hard and hopefully earn
-enough money to pay off their debts. For Adam, Freedom has nothing to do with that and in this talk,
-he is going to talk about how he has rewritten his own script of what freedom is.</p>
-
-
-
-
-<iframe class="youtube" src="http://www.youtube.com/embed/9XRPbFIN4lk" frameborder="0" allowfullscreen></iframe>
-
-
-
-
-      
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-<div class="full-width">
-  <div class="pagination-wrapper">
-    <div class="pagination">
-    
-      <span class="previous">
-        
-          <a href="/page3">Previous</a>
-        
-      </span>
-    
-
-    <span class="extended">
-      <span class="page">
-        
-        <a href="/">1</a>
-        
-      </span>
-
-      
-        <span class="page">
-          
-            <a href="/page2">2</a>
-          
-        </span>
-      
-        <span class="page">
-          
-            <a href="/page3">3</a>
-          
-        </span>
-      
-        <span class="page">
-          
-            <span class="current-page">4</span>
-          
-        </span>
-      
-        <span class="page">
-          
-            <a href="/page5">5</a>
-          
-        </span>
-      
-        <span class="page">
-          
-            <a href="/page6">6</a>
-          
-        </span>
-      
-        <span class="page">
-          
-            <a href="/page7">7</a>
-          
-        </span>
-      
-    </span>
-
-    
-      <span class="next">
-        <a href="/page5">Next</a>
-      </span>
-    
-    </div>
-  </div>
-</div>
-
+</section>
 
 
   </section>
