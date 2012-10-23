@@ -6,14 +6,24 @@ body
   margin: 0 auto
 
 .header
-  padding: 60px 0 20px 0
+  padding: 60px 0 60px 0
   text-align: center
+  color: $black1 + #444
   .logo
-    padding-bottom: 20px
-    border-bottom: none
-    display: block
-    img
-      width: 150px
+    margin-bottom: 10px
+    font-size: 32px
+    line-height: 38px
+    a
+      border-bottom: none
+      color: $black1
+      &:hover
+        // color: $black1 + #333
+        color: $red1
+
+    .domain
+      font-weight: 200
+    .directory
+      font-weight: 600
   .navigation
     padding-top: 20px
     a 
@@ -21,8 +31,8 @@ body
       font-size: 13px
       border-bottom: none
   a
-    color: $black1 + #444
-    border-bottom: 1px dashed $black1 + #444
+    color: $black1 + #666
+    border-bottom: 1px dashed $black1 + #666
     &:hover
       color: $black1 + #111
 
@@ -32,7 +42,7 @@ body
   article
     .wrapper
       padding: 70px 0 90px 0
-      border-bottom: 1px solid $gray1 - #111
+      border-top: 1px solid $gray1 - #111
       .inner
         padding: 0 20px
     img
@@ -85,6 +95,7 @@ body
           +text-shadow($red1 - #333 0 -1px 1px)
 
   .pagination
+    border-top: 1px solid $gray1 - #111
     font-size: 12px
     padding: 50px 0
     text-align: center
