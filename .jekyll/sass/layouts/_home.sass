@@ -1,0 +1,82 @@
+.home
+  margin-bottom: 40px
+  text-align: center
+  font-weight: 200
+  .header
+    padding: 160px 0 30px 0
+    font-size: 32px
+    line-height: 48px
+    .logo
+      display: block
+      margin-bottom: 20px
+      img
+        width: 180px
+  .medium
+    font-size: 20px
+  .sections
+    div
+      float: left
+      width: 227px
+      margin: 0 10px
+      position: relative
+      img
+        height: 150px
+        width: 150px
+        +border-radius(100%)
+      h1
+        font-weight: 600
+        font-size: 24px
+        line-height: 48px
+      p
+        // font-weight: 400
+        font-size: 18px
+        padding: 0 20px
+        color: $black1 + #444
+    .blog
+      width: 226px
+    a
+      display: block
+      color: $black1
+      padding: 30px 0 20px 0
+      &:hover
+        img
+          height: 155px
+          width: 155px
+          margin-top: -5px
+    .disabled
+      color: #ddd
+      padding: 30px 0 20px 0
+      a
+        color: #ddd
+      img
+        +opacity(0.2)
+    .coming-soon
+      font-size: 20px
+      color: $black1
+      position: absolute
+      top: 90px
+      left: -10px
+      +text-shadow($black1 - #444  0 1px 1px)
+
+@media (max-width: 1070px)
+  .home 
+    .sections
+      div
+        width: 29%
+        margin: 0 2%
+
+      .blog
+        width: 30%
+
+@media (max-width: 720px)
+  .home
+    .header
+      padding: 60px 0 50px 0
+
+    .sections
+      div
+        // width: 100%
+        // float: none
+        // margin: 0 auto
+        img
+          margin-left: -2%

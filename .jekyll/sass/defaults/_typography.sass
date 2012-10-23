@@ -37,6 +37,13 @@ article
 
 // Default article layout
 
+strong, b
+  font-weight: bold
+em, i
+  font-style: italic
+s
+  +text-shadow(none)
+
 article
   header
     margin-bottom: 30px
@@ -57,12 +64,6 @@ article
     line-height: 27px
     &:last-child
       margin-bottom: 0
-  strong, b
-    font-weight: bold
-  em, i
-    font-style: italic
-  s
-    +text-shadow(none)
   blockquote, ul, ol
     padding-left: 40px
   blockquote
