@@ -7,3 +7,6 @@ CNAME
 root-files
 README.md
 config.rb
+
+# page2, page3, page4 on root level
+/page*
