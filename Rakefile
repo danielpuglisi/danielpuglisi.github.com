@@ -5,7 +5,8 @@ require 'Date'
 require 'colored'
 
 @base = ".jekyll"
-@categories = ["articles", "tech"]
+# @categories = ["articles", "tech"]
+@categories = ["articles"]
 
 task :new do
   no_op(ARGV[1..-1])            # call no_op method
