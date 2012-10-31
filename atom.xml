@@ -4,12 +4,26 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-10-24T13:35:18+02:00</updated>
+ <updated>2012-10-31T21:08:44+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Wiring in</title>
+   <link href="http://danielpuglisi.com/articles/2012/10/31/wiring-in.html"/>
+   <updated>2012-10-31T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/10/31/wiring-in</id>
+   <content type="html">&lt;p&gt;&lt;span class=&quot;center&quot;&gt;
+&lt;strong&gt;My personal coding soundtrack for getting into the tunnel&lt;/strong&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:user:116689447:playlist:4xRzOhDR2TIX61XnIPWKH8&quot; class=&quot;spotify&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Free Learn Faster Bootcamp</title>
