@@ -3,6 +3,7 @@
 .jekyll
 Rakefile
 Procfile
+Gemfile
 CNAME
 root-files
 README.md
