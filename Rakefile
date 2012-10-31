@@ -128,9 +128,28 @@ namespace :list do
   end
 end
 
-desc "generates static files in root dir"
-task :generate do
-  sh "rsync -rd --delete --exclude-from=.jekyll/root-files #{@base}/_site/* ."
+namespace :generate do
+
+  desc "generates static files in root dir"
+  task :site do
+    sh "rsync -rd --delete --exclude-from=.jekyll/root-files #{@base}/_site/* ."
+  end
+
+  desc "generates static movie list"
+  task :movies do
+    require 'imdb_lists'
+    result = ImdbLists.fetch("http://www.imdb.com/list/aw8wqGRn0LI/")
+    output = []
+    result.movies.sort_by{|x| x.rating}.reverse.map do |movie|
+      if movie.created_at + (2*7*24*60*60) > Time.now
+        new = "<span class='new'>NEW</span>"
+      else
+        new = ""
+      end
+      output << "<li>#{new}<a href='#{movie.details}'>#{movie.title}</a></li>"
+    end
+    File.open(".jekyll/_recommendations/movies.html", "w") << output.join
+  end
 end
 
 desc "cleans up the root directory but doesn't touch the jekyll files"

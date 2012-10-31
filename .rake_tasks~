@@ -1,5 +1,6 @@
 cleanup
-generate
+generate:movies
+generate:site
 list:published
 list:unpublished
 open
