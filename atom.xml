@@ -4,12 +4,26 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-10-31T22:18:30+01:00</updated>
+ <updated>2012-11-01T10:50:14+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>One Minute Wonder</title>
+   <link href="http://danielpuglisi.com/articles/2012/11/01/one-minute-wonder.html"/>
+   <updated>2012-11-01T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/11/01/one-minute-wonder</id>
+   <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/50980092?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;badge=0&quot; class=&quot;vimeo&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;&lt;strong&gt;One Minute Wonder&lt;/strong&gt; is a series of one minute video portraits of different people around the world. Artists, entrepreneurs, designers, rain-makers and other professions
+are giving the world a little insight in their own life and world. I really like the idea behind it and I thought about doing this kind of short documentations on my own in
+Switzerland. We&amp;rsquo;ll see.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Wiring in</title>
