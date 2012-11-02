@@ -4,12 +4,23 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-11-01T16:02:11+01:00</updated>
+ <updated>2012-11-02T14:48:24+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>You waste a lot of time at work</title>
+   <link href="http://danielpuglisi.com/articles/2012/11/02/you-waste-a-lot-of-time-at-work.html"/>
+   <updated>2012-11-02T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/11/02/you-waste-a-lot-of-time-at-work</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/you-waste-a-lot-of-time-at-work.jpg&quot; alt=&quot;You wast a lot of time at work&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Just because you&amp;rsquo;re at work doesn&amp;rsquo;t mean you&amp;rsquo;re getting work done.&lt;/p&gt;&lt;/blockquote&gt;
+</content>
+ </entry>
  
  <entry>
    <title>I hate developing SharePoint (a rant)</title>
