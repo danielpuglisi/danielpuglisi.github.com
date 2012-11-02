@@ -4,12 +4,21 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-11-02T15:18:23+01:00</updated>
+ <updated>2012-11-02T18:26:27+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Friday Hug at RailsGirls Zurich</title>
+   <link href="http://danielpuglisi.com/articles/2012/11/02/friday-hug-at-railsgirls-zurich.html"/>
+   <updated>2012-11-02T01:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/11/02/friday-hug-at-railsgirls-zurich</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/friday-hug-rails-girls-zurich.jpg&quot; alt=&quot;Friday Hug at RailsGirls Zurich&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>You waste a lot of time at work</title>
