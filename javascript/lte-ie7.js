@@ -7,13 +7,21 @@ window.onload = function() {
 	}
 	var icons = {
 			'icon-github' : '&#x21;',
-			'icon-vimeo' : '&#x22;',
 			'icon-twitter' : '&#x23;',
 			'icon-feed' : '&#x24;',
 			'icon-flickr' : '&#x25;',
 			'icon-paragraph-justify' : '&#x26;',
 			'icon-link' : '&#x27;',
-			'icon-share' : '&#x28;'
+			'icon-share' : '&#x28;',
+			'icon-instagram' : '&#x29;',
+			'icon-vimeo' : '&#x22;',
+			'icon-pinterest' : '&#x2a;',
+			'icon-stumbleupon' : '&#x2b;',
+			'icon-lastfm' : '&#x2c;',
+			'icon-soundcloud' : '&#x2d;',
+			'icon-youtube' : '&#x2e;',
+			'icon-dribbble' : '&#x2f;',
+			'icon-forrst' : '&#x30;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
