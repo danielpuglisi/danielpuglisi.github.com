@@ -4,12 +4,25 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-11-03T11:24:55+01:00</updated>
+ <updated>2012-11-06T13:16:31+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Why Google Went Offline Today and a Bit about How the Internet Works</title>
+   <link href="http://danielpuglisi.com/articles/2012/11/06/why-google-went-offline-today-and-a-bit-about-how-the-internet-works.html"/>
+   <updated>2012-11-06T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/11/06/why-google-went-offline-today-and-a-bit-about-how-the-internet-works</id>
+   <content type="html">&lt;p&gt;Tom Paseka:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Situations like this are referred to in the industry as &amp;ldquo;route leakage&amp;rdquo;, as the route has &amp;ldquo;leaked&amp;rdquo; past normal paths. This isn&amp;rsquo;t an unprecedented event. Google previously suffered a similar outage when Pakistan was allegedly trying to censor a video on YouTube and the National ISP of Pakistan null routed the service&amp;rsquo;s IP addresses. Unfortunately, they leaked the null route externally. Pakistan Telecom&amp;rsquo;s upstream provider, PCCW, trusted what Pakistan Telecom&amp;rsquo;s was sending them and the routes spread across the Internet. The effect was YouTube was knocked offline for around 2 hours.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Interesting post which shows how the Internet works. At least a part of it.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>How you can help to get more women into tech</title>
