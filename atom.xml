@@ -4,12 +4,22 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-11-06T13:36:29+01:00</updated>
+ <updated>2012-11-07T22:17:58+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Rails Girls Zurich</title>
+   <link href="http://danielpuglisi.com/articles/2012/11/07/rails-girls-zurich.html"/>
+   <updated>2012-11-07T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/11/07/rails-girls-zurich</id>
+   <content type="html">&lt;iframe src=&quot;http://player.vimeo.com/video/53032561?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;badge=0&quot; class=&quot;vimeo&quot; frameborder=&quot;0&quot; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Why Google Went Offline Today and a Bit about How the Internet Works</title>
