@@ -4,12 +4,25 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-11-07T22:17:58+01:00</updated>
+ <updated>2012-11-08T20:59:57+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>The 4-Hour Chef Trailer</title>
+   <link href="http://danielpuglisi.com/articles/2012/11/08/the-4-hour-chef-trailer.html"/>
+   <updated>2012-11-08T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/11/08/the-4-hour-chef-trailer</id>
+   <content type="html">&lt;iframe class=&quot;youtube&quot; src=&quot;http://www.youtube.com/embed/Jdbd0k7BZ4s&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+&lt;p&gt;Oooh yes. After reading &lt;strong&gt;The 4-Hour Workweek&lt;/strong&gt; and &lt;strong&gt;The 4-Hour Body&lt;/strong&gt; I can&amp;rsquo;t wait to get this one into my hands.
+Looks like the next bestseller to me Tim ;)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Rails Girls Zurich</title>
