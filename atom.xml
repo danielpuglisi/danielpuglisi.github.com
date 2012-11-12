@@ -4,12 +4,164 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-11-08T20:59:57+01:00</updated>
+ <updated>2012-11-12T21:44:31+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>5 essential productivity tips</title>
+   <link href="http://danielpuglisi.com/articles/2012/11/12/5-essential-productivity-tips.html"/>
+   <updated>2012-11-12T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/11/12/5-essential-productivity-tips</id>
+   <content type="html">&lt;p&gt;Working independently and on a machine which is connected to the internet that
+provides hours of procrastination-encouraging stuff isn&amp;rsquo;t always that easy. Sometimes
+you just drift off of that new line of code you wanted to implement, just because
+someone tweeted about this new fancy piece of Apple device he or she just bought.
+Several minutes later, you often don&amp;rsquo;t even remember how you ended up watching that
+youtube video in which unicorns and monkeys playing chess together.&lt;/p&gt;
+
+&lt;p&gt;Sounds familiar? Now don&amp;rsquo;t be afraid, I&amp;rsquo;m here to help you. I&amp;rsquo;ve 5 essentials tips for you
+on how you can prevent yourself from falling into this situation again.&lt;/p&gt;
+
+&lt;h3&gt;1. Turn off vibration on your mobile phone&lt;/h3&gt;
+
+&lt;p&gt;This one saved me a lot of time. Turn off vibration for the
+most disturbing features/apps your phone possesses. In my case
+I&amp;rsquo;ve disabled vibration for the following apps on my iPhone:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SMS&lt;/li&gt;
+&lt;li&gt;WhatsApp (I even disabled all notifications because of some group conversation I&amp;rsquo;m in)&lt;/li&gt;
+&lt;li&gt;Mail&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;li&gt;Facebook&lt;/li&gt;
+&lt;li&gt;Foursquare&lt;/li&gt;
+&lt;li&gt;Instagram&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I haven&amp;rsquo;t disabled vibration when someone is calling me. When I don&amp;rsquo;t want to be
+disturbed by a phone call I put my iPhone into the &lt;strong&gt;Do not disturb&lt;/strong&gt; mode. If your
+phone doesn&amp;rsquo;t have such a feature you can, of course, disable the vibration for
+the calling feature too.&lt;/p&gt;
+
+&lt;h3&gt;2. The rule of three&lt;/h3&gt;
+
+&lt;p&gt;The rule of three is one of my creations which helped me a lot lately. The basic idea
+behind it is to have only three applications open at a time.
+When I&amp;rsquo;m developing I only use a Terminal (iTerm) a Browser (Google Chrome) and a
+music application (Spotify). Whereas the music application isn&amp;rsquo;t work related but
+has its own purpose (more about this in tip #3).
+I know this isn&amp;rsquo;t possible for every use case and if you need four applications,
+go along with four.&lt;/p&gt;
+
+&lt;p&gt;The value of doing this goes beyond the number of open applications. It helps you
+to recognize which apps are supporting your workflow and which apps don&amp;rsquo;t. Since
+I&amp;rsquo;m using this approach, I never got interrupted by a new Tweet or Chat message.&lt;/p&gt;
+
+&lt;h3&gt;3. Wear headphones and listen to music&lt;/h3&gt;
+
+&lt;p&gt;Wearing headphones can improve your productivity in two ways.&lt;/p&gt;
+
+&lt;p&gt;The first one is that people who are in the same room as you
+(e.g. when you&amp;rsquo;re working at a startup or in a coworking office)
+don&amp;rsquo;t just walk up to you and disturb you. The fact that you&amp;rsquo;re
+wearing headphones can be a sign that you are concentrating and don&amp;rsquo;t want to be
+interrupted. Unfortunately there are a lot of old school companies out there which
+think you should not be listening to music on both ears, because if someone wants
+to ask you a question from the other side of the room, you don&amp;rsquo;t hear them.
+I think this is bullshit but you&amp;rsquo;ll have to arrange it with the people you&amp;rsquo;re
+working with.&lt;/p&gt;
+
+&lt;p&gt;The second improvement is the music itself. Music can put you in a certain way of
+consciousness which improves your concentration and speed on what you&amp;rsquo;re working on
+right now. I don&amp;rsquo;t know if this is true for you,
+but for me this effect only appears when I&amp;rsquo;m listening to music which has no
+lyrics or vocals in it (there are of course a few exceptions).
+Because of this I&amp;rsquo;ve created a &lt;a href=&quot;http://danielpuglisi.com/articles/2012/10/31/wiring-in.html&quot;&gt;playlist&lt;/a&gt; which I&amp;rsquo;m listening to when I&amp;rsquo;m programming
+or writing blog articles (like this one).
+But when you&amp;rsquo;re listening to music while working, be sure that your music application (Spotify, iTunes or whatever) isn&amp;rsquo;t disturbing you.
+Hit the play button and then hide it somewhere where it doesn&amp;rsquo;t come into your way.&lt;/p&gt;
+
+&lt;p&gt;Another improvement here is,
+that you don&amp;rsquo;t have to listen to music you don&amp;rsquo;t like (because you&amp;rsquo;re wearing headphones).
+Create your own playlist and if you want to, share it in the comments below.&lt;/p&gt;
+
+&lt;h3&gt;4. Write a Todo list&lt;/h3&gt;
+
+&lt;p&gt;Todo lists are essential to keep your productivity on a certain level.
+This tip assumes, that you&amp;rsquo;re already using Todo lists and aim to improve the use of it.
+If you never used a Todo list before, here is a short
+&lt;a href=&quot;http://codegestalt.com/fistbump/2012/04/04/four-productivity-hacks-you-should-use&quot;&gt;introduction&lt;/a&gt; (the chapter &lt;strong&gt;Set weekly and daily goals&lt;/strong&gt; is what you&amp;rsquo;re looking for).&lt;/p&gt;
+
+&lt;p&gt;After some time using Todo lists, you might find yourself not doing it on a daily basis anymore or maybe you just want to improve them a little bit more.
+This list should bring you a step closer to your goal:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wrting Tasks down should be easy. You can only achieve this goal with the right collection of tools.
+I&amp;rsquo;ve used Evernote a long time for my Todo lists but
+in the end it wasn&amp;rsquo;t the best tool for writing down tasks and checking them, because it took to long.
+At the moment I&amp;rsquo;m using good ol' pen and paper. I&amp;rsquo;ve buyed a moleskin notebook and always carry it with me when I&amp;rsquo;m working.
+Maybe pen and paper isn&amp;rsquo;t the best solution for you, but what I want to say is, try different tools and find out what best fits you.&lt;/li&gt;
+&lt;li&gt;Write everything down what you have done through the day even if it&amp;rsquo;s not on the list. This approach is called the ToDone list. More &lt;a href=&quot;http://codegestalt.com/fistbump/2012/08/20/the-todone-list&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Mark the three most important tasks of the day and do them right at the beginning of the day.
+Try to do these three tasks before the half time of your working day (normally lunch). If
+these three tasks need more time, split them into multiple tasks until you manage to do them before lunch.
+This will help you to improve your time management and to
+evaluate which tasks need a certain amount of time.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h3&gt;5. Be disciplined&lt;/h3&gt;
+
+&lt;p&gt;The last and most important lesson I want to give you in these 5 tips is about habits.
+All these tips above will be useless (not necessarily applicable for tip #1 and #3) for you if you&amp;rsquo;re not going
+to use them on a regular basis. Which means every day. If you do them every day you can manage to build
+up habits and the good thing about habits is, that you can&amp;rsquo;t delete them. So once you have achieved to build
+up your habits for writing Todo lists or checking how many applications are running on your computer before starting to work
+you will manage to improve your productivity like never before. But from nothing comes nothing. So you need to discipline yourself.
+If you don&amp;rsquo;t have any problems with discipline and don&amp;rsquo;t need any help for that. Bravo. You can stop reading now,
+because you will apply these previous 4 tips without any problem. But if not, go on.&lt;/p&gt;
+
+&lt;p&gt;Building up habits isn&amp;rsquo;t always that easy and to minimize the range of failure I&amp;rsquo;m going to introduce to you &lt;a href=&quot;http://lifehacker.com/281626/jerry-seinfelds-productivity-secret&quot;&gt;Jerry Seinfeld&amp;rsquo;s Productivity Secret&lt;/a&gt;.
+It is called &lt;strong&gt;Don&amp;rsquo;t break the chain!&lt;/strong&gt;. The idea behind it is to create a list of certain tasks you&amp;rsquo;re going to repeat on a daily basis. My list for example looks like this:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Draw something&lt;/li&gt;
+&lt;li&gt;Shoot at least one usable picture&lt;/li&gt;
+&lt;li&gt;Programming&lt;/li&gt;
+&lt;li&gt;Read for 30 minutes&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Now what do you have to do with this list? Easy, you can do it the ol' school way and print out a huge calendar for every task and put in a big red cross on every day you&amp;rsquo;ve done a
+specific task. If you don&amp;rsquo;t like to print out that much paper, there are also a few applications out there to achieve the same result. E.g. &lt;a href=&quot;http://dontbreakthechain.com/&quot;&gt;Don&amp;rsquo;t break the chain&lt;/a&gt;
+is a simple web application which lets you mark the specific days you worked on a task. My humble self is using &lt;a href=&quot;http://chains.cc/&quot;&gt;chains.cc&lt;/a&gt;. It has a fancy design
+and they also have an iOS app.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re going to use this method it can (and I believe it will) help you to stay focused on the tips above and many other things for a long time and hopefully
+you will build up habits in the end.&lt;/p&gt;
+
+&lt;h3&gt;TL;DR&lt;/h3&gt;
+
+&lt;p&gt;So let&amp;rsquo;s recap these 5 tips in a short list:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Turn off vibration for distracting apps on your mobile phone&lt;/li&gt;
+&lt;li&gt;Try to have only three running applications at a time while you&amp;rsquo;re working&lt;/li&gt;
+&lt;li&gt;Wear headphones and listen to music which helps you concentrating&lt;/li&gt;
+&lt;li&gt;Write todo lists and complete the three main tasks until lunch&lt;/li&gt;
+&lt;li&gt;Do these 4 tips above every day, motivate yourself with a technique like &lt;strong&gt;Don&amp;rsquo;t break the chains&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;That&amp;rsquo;s it. Try this tips out and if you&amp;rsquo;ve any additional tips or do things differently please let me know in the comments. Constructive critic is very welcome. Thank you.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The 4-Hour Chef Trailer</title>
