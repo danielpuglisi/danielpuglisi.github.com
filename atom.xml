@@ -4,12 +4,22 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-11-12T21:44:31+01:00</updated>
+ <updated>2012-11-26T08:52:52+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>The Stranger - Lord Huron</title>
+   <link href="http://danielpuglisi.com/articles/2012/11/26/the-stranger---lord-huron.html"/>
+   <updated>2012-11-26T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/11/26/the-stranger---lord-huron</id>
+   <content type="html">&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:track:3XjsdEun6XcO2Gs4lJCueH&quot; class=&quot;spotify&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>5 essential productivity tips</title>
