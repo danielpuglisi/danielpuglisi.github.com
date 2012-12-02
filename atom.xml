@@ -4,12 +4,23 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-11-26T08:54:56+01:00</updated>
+ <updated>2012-12-02T11:49:43+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Freelancember 2012</title>
+   <link href="http://danielpuglisi.com/articles/2012/12/02/freelancember-2012.html"/>
+   <updated>2012-12-02T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/12/02/freelancember-2012</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/freelancember.jpg&quot; alt=&quot;Freelancember&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An Advent Calendar for Web Designers and Freelancer. Worth to check out.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The Stranger - Lord Huron</title>
