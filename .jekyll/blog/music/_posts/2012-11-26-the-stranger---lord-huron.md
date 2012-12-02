@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The Stranger - Lord Huron"
+category: music
 date: 2012-11-26 0
 permalink: "/articles/2012/11/26/the-stranger---lord-huron.html"
 ---

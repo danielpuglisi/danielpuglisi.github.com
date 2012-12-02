@@ -4,12 +4,31 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-12-02T11:49:43+01:00</updated>
+ <updated>2012-12-02T15:53:15+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Hello Winter</title>
+   <link href="http://danielpuglisi.com/articles/2012/12/02/hello-winter.html"/>
+   <updated>2012-12-02T02:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/12/02/hello-winter</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://500px.com/photo/19655303&quot;&gt;&lt;img src=&quot;http://pcdn.500px.net/19655303/e14ca45c1f4dc6f9ef090f6c1aabc4ee7d80dc2c/4.jpg&quot; alt=&quot;Winter is here by Daniel Puglisi (danielpuglisi)) on 500px.com&quot; border=&quot;0&quot; style=&quot;margin: 0 0 5px 0;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Portico Quartet</title>
+   <link href="http://danielpuglisi.com/articles/2012/12/02/portico-quartet.html"/>
+   <updated>2012-12-02T01:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/12/02/portico-quartet</id>
+   <content type="html">&lt;iframe src=&quot;https://embed.spotify.com/?uri=spotify:album:2Y83b1uzgf5pDfQHdFKgjm&quot; class=&quot;spotify&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Freelancember 2012</title>
