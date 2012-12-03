@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Spotify Playlist: Summer Maddafakkas"
+category: music
 permalink: "/personal/2012/06/28/summer-maddafakkas.html"
 ---
 

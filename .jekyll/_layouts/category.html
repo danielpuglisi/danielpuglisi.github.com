@@ -1,0 +1,21 @@
+---
+layout: blog
+---
+
+<article class="category-title">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h1>{{ page.title }}</h1>
+      </header>
+    </div>
+  </div>
+</article>
+
+<div class="category-posts">
+  {% for post in paginator.posts %}
+    {% include post-entry.html %}
+  {% endfor %}
+</div>
+
+<!-- {% include pagination.html %} -->
