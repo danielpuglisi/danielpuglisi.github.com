@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Keep your Heroku app alive, for free"
-category: tech
+category: programming
 date: 2012-08-27 0
 permalink: "/articles/2012/08/27/keep-your-free-heroku-app-alive.html"
 comments: true
