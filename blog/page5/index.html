@@ -68,6 +68,34 @@
 
 
   
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://www.visualizing.org/full-screen/42273">Programming Languages Influence Network Graph</a> &rarr;
+        </h2>
+        <div class="meta">September 10, 2012</div>
+      </header>
+      <p><img src="/images/posts/programming-languages-influence-network-graph-ruby.jpg" alt="Which programming languages influenced ruby and were influenced by ruby" /></p>
+
+
+
+
+<p>Ramiro Gómez created a graph which shows the different influences of programming languages.
+In the image above, you can see how Ruby was influenced (red lines) by Python or C++ and influenced (blue lines)
+languages like CoffeeScript or Windows PowerShell.</p>
+
+
+    </div>
+  </div>
+</article>
+
+   
+
+
+
+  
     <article class="post">
   <div class="wrapper">
     <div class="inner">
@@ -356,97 +384,6 @@ selling <strong>Icons and Vectors</strong>, writing <strong>Books</strong> or bu
 <p>Cool.</p>
 
 
-    </div>
-  </div>
-</article>
-
-   
-
-
-
-  
-    <article class="post">
-  <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h2>
-          
-            <a href="/articles/2012/08/27/keep-your-free-heroku-app-alive.html">Keep your Heroku app alive, for free</a> 
-          
-        </h2>
-        <div class="meta">August 27, 2012</div>
-      </header>
-      <p>Maybe you were in this situation before.
-You&rsquo;re developing a website or
-app with <a href="http://rubyonrails.org/">Ruby on Rails</a> and using
-a single <a href="http://www.heroku.com/">Heroku</a>
-dyno to show off your current progress to your customers.
-The thing is, if you are only
-using one dyno for your app,
-Heroku is going to put your app back to sleep after a
-certain time (5 minutes I think?) and this causes your
-app to load slower the next time a request comes in.
-There <a href="https://github.com/github/hubot-scripts/blob/master/src/scripts/keep-alive.coffee">are</a>
-<a href="http://beouk.blogspot.ch/2012/02/keeping-heroku-awake.html">a</a>
-<a href="http://danneu.com/posts/7-keeping-that-free-heroku-dyno-alive-without-feeling-unethical">few</a>
-workarounds already out there, but I wanted to have something simpler.</p>
-
-
-
-
-<p>So I came up with a little shell script:</p>
-
-
-
-
-<script src="https://gist.github.com/3490814.js?file=keep-alive.sh"></script>
-
-
-
-
-<p>This script does nothing more than requesting every single Heroku app which is defined in the array at
-the beginning of the script.</p>
-
-
-
-
-<p>Of course, it would be a little bit overwhelming to call this script
-every 5 minutes by hand, so we are going to create a cronjob.</p>
-
-
-
-
-<p>To accomplish this, we are adding the following line to the <code>/etc/crontab</code> file:</p>
-
-
-
-
-<script src="https://gist.github.com/3490792.js?file=crontab"></script>
-
-
-
-
-<p>This is going to execute the <code>keep-alive.sh</code> script every minute.</p>
-
-
-
-
-<p>To complete the whole thing, put the <code>keep-alive.sh</code> file into the <code>/etc/cron.custom</code> directory
-(you may have to create the directory first) and you are all set.</p>
-
-
-
-
-<p>I run that script on a Linux server, but it should also work with OSX.
-And thats it. The Heroku app shouldn&rsquo;t go back to sleep anymore (as long as your system is running).</p>
-
-
-
-
-<p>Enjoy.</p>
-
-
-      
     </div>
   </div>
 </article>

@@ -6,7 +6,7 @@ require 'colored'
 
 @base = ".jekyll"
 # @categories = ["articles", "tech"]
-@categories = ["articles"]
+@categories = ["articles", "music"]
 
 task :new do
   no_op(ARGV[1..-1])            # call no_op method
@@ -32,7 +32,8 @@ def create_file(type)
 
   number = get_sort_number(file_date)
 
-  permalink = "/#{category_dir}/#{permalink_date}/#{title.slug}.html"
+  # permalink = "/#{category_dir}/#{permalink_date}/#{title.slug}.html"
+  permalink = "/articles/#{permalink_date}/#{title.slug}.html"
   filename = "#{file_date}-#{title.slug}.md"
 
   filepath = "#{@base}/blog/#{category_dir}/_posts/#{filename}"

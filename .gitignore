@@ -3,3 +3,4 @@ drafts
 .DS_Store
 .jekyll/.sass-cache/*
 .sass-cache
+.bundle/*

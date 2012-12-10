@@ -1,3 +1,4 @@
+source :rubygems
 gem 'colored'
 gem 'foreman'
 gem 'compass'
