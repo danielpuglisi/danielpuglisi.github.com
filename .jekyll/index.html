@@ -1,34 +1,19 @@
 ---
-layout: layout
+layout: blog
 title: "Daniel Puglisi - Designer. Developer. Co-Founder of Codegestalt."
 ---
 
-<section class="home">
-  <div class="wrapper">
-    <div class="inner">
-      <header class="header">
-        <p>Hi, my name is <b>Daniel</b></p> 
-        <p class="what-am-i medium">Designer, Developer & Co-Founder of Codegestalt</p>
-      </header>
+{% for post in paginator.posts %}
 
-      <div class="sections">
-        <div class="work disabled">
-            <img src="/images/work-disabled.png">
-            <h1>Projects</h1>
-        </div>
-        <div class="blog">
-          <a href="/blog">
-            <img src="/images/blog.png">
-            <h1>Blog</h1>
-          </a>
-        </div>
-        <div class="about">
-          <a href="/about.html">
-            <img src="/images/about.png">
-            <h1>About</h1>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% when 'quote' %}
+    {% include quote.html %}
+  {% endcase %}
+
+{% endfor %}
+
+{% include pagination.html %}
