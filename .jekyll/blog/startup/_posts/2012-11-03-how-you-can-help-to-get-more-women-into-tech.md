@@ -3,6 +3,7 @@ layout: link
 title: "How you can help to get more women into tech"
 date: 2012-11-03 0
 link: "http://codegestalt.com/fistbump/2012/11/02/how-you-can-help-to-get-more-women-into-tech"
+category: startup
 permalink: "/articles/2012/11/03/how-you-can-help-to-get-more-women-into-tech.html"
 ---
 

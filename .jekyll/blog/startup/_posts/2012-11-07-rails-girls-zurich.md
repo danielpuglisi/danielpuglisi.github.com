@@ -2,6 +2,7 @@
 layout: post
 title: "Rails Girls Zurich"
 date: 2012-11-07 0
+category: startup
 permalink: "/articles/2012/11/07/rails-girls-zurich.html"
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Self-employed &hearts;"
 date: 2012-08-23 0
+category: startup
 permalink: "/articles/2012/08/23/self-employed.html"
 ---
 

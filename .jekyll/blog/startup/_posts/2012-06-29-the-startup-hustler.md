@@ -2,6 +2,7 @@
 layout: link
 title: "The Startup Hustler"
 link: "https://elasticsales.com/blog/2012/05/07/startup-hustler/"
+category: startup
 permalink: "/2012/06/29/the-startup-hustler.html"
 ---
 

@@ -3,8 +3,8 @@ layout: post
 title: "5 essential productivity tips"
 date: 2012-11-12 0
 permalink: "/articles/2012/11/12/5-essential-productivity-tips.html"
+category: productivity
 comments: true
-published: true
 ---
 
 Working independently and on a machine which is connected to the internet that

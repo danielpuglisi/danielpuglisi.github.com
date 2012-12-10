@@ -3,6 +3,7 @@ layout: link
 title: "Busy hustling"
 date: 2012-10-08 0
 permalink: "/articles/2012/10/08/busy-hustling.html"
+category: startup
 link: "http://codegestalt.com/fistbump/2012/10/08/busy-hustling"
 ---
 

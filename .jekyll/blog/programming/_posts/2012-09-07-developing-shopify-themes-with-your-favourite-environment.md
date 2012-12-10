@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Developing Shopify Themes in your favourite environment"
-category: tech
+category: programming
 date: 2012-09-07 0
 permalink: "/articles/2012/09/07/developing-shopify-themes-in-your-favourite-environment.html"
 comments: true

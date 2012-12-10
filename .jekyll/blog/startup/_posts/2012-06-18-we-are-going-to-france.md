@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "We are going to France"
+category: startup
 permalink: "/personal/2012/06/18/we-are-going-to-france.html"
 ---
 

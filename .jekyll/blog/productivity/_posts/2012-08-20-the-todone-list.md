@@ -3,6 +3,7 @@ layout: link
 title: "The ToDone list"
 date: 2012-08-20 0
 link: "http://codegestalt.com/blog/2012/08/20/the-todone-list"
+category: productivity
 permalink: "/articles/2012/08/20/the-todone-list.html"
 ---
 
