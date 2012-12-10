@@ -1,0 +1,578 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    <title>Daniel Puglisi - Designer. Developer. Co-Founder of Codegestalt.</title>
+  
+  <meta name="author" content="Daniel Puglisi" />
+  <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta property="og:description" content="{% for post in paginator.posts %}
+
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% when 'quote' %}
+    {% include quote.html %}
+  {% endcase %}
+
+{% endfor %}
+
+{% include pagination.html %}
+" />
+  <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <!-- <script src="/javascript/lte-ie7.js"></script> -->
+  <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32260198-1']);
+    _gaq.push(['_setDomainName', 'danielpuglisi.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+</head>
+<body>
+  <section class="full-width">
+
+    <section class="header">
+  <div class="wrapper">
+    <div class="inner">
+      <!-- <a href="/" class="logo"><img src="/images/logo.png"></a> -->
+      <div class="logo">
+        <!-- <a href="/" class="domain">danielpuglisi.com</a><a href="/blog" class="directory">/blog</a> -->
+        <a href="/" class="domain">daniel<span class="directory">puglisi</span>.com</a>
+      </div>
+      Hi, I'm <a href="/about.html">Daniel</a>. Designer, Developer & Co-Founder of Codegestalt.
+
+      <div class="categories-list">
+        I write about my
+        <a href="/blog/startup">startup life</a>,
+        <a href="/blog/productivity">productivity</a>,
+        <a href="/blog/programming">programming</a>,
+        <a href="/blog/music">music</a> and a lot of other things.
+      </div>
+
+      <div class="navigation">
+        <!-- <a href="/blog">Blog</a> -->
+        <!-- <s><a href="#">Stuff I made</a></s> -->
+        <a href="/atom.xml"><span aria-hidden="true" class="icon-feed"></span></a>
+        <a href="http://twitter.com/danielpuglisi"><span aria-hidden="true" class="icon-twitter"></a>
+        <a href="http://github.com/danielpuglisi"><span aria-hidden="true" class="icon-github"></a>
+        <a href="http://flickr.com/people/danielpuglisi"><span aria-hidden="true" class="icon-flickr"></a>
+        <a href="http://instagram.com/danielpuglisi"><span aria-hidden="true" class="icon-instagram"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/08/27/keep-your-free-heroku-app-alive.html">Keep your Heroku app alive, for free</a> 
+          
+        </h2>
+        <div class="meta">August 27, 2012</div>
+      </header>
+      <p>Maybe you were in this situation before.
+You&rsquo;re developing a website or
+app with <a href="http://rubyonrails.org/">Ruby on Rails</a> and using
+a single <a href="http://www.heroku.com/">Heroku</a>
+dyno to show off your current progress to your customers.
+The thing is, if you are only
+using one dyno for your app,
+Heroku is going to put your app back to sleep after a
+certain time (5 minutes I think?) and this causes your
+app to load slower the next time a request comes in.
+There <a href="https://github.com/github/hubot-scripts/blob/master/src/scripts/keep-alive.coffee">are</a>
+<a href="http://beouk.blogspot.ch/2012/02/keeping-heroku-awake.html">a</a>
+<a href="http://danneu.com/posts/7-keeping-that-free-heroku-dyno-alive-without-feeling-unethical">few</a>
+workarounds already out there, but I wanted to have something simpler.</p>
+
+
+
+
+<p>So I came up with a little shell script:</p>
+
+
+
+
+<script src="https://gist.github.com/3490814.js?file=keep-alive.sh"></script>
+
+
+
+
+<p>This script does nothing more than requesting every single Heroku app which is defined in the array at
+the beginning of the script.</p>
+
+
+
+
+<p>Of course, it would be a little bit overwhelming to call this script
+every 5 minutes by hand, so we are going to create a cronjob.</p>
+
+
+
+
+<p>To accomplish this, we are adding the following line to the <code>/etc/crontab</code> file:</p>
+
+
+
+
+<script src="https://gist.github.com/3490792.js?file=crontab"></script>
+
+
+
+
+<p>This is going to execute the <code>keep-alive.sh</code> script every minute.</p>
+
+
+
+
+<p>To complete the whole thing, put the <code>keep-alive.sh</code> file into the <code>/etc/cron.custom</code> directory
+(you may have to create the directory first) and you are all set.</p>
+
+
+
+
+<p>I run that script on a Linux server, but it should also work with OSX.
+And thats it. The Heroku app shouldn&rsquo;t go back to sleep anymore (as long as your system is running).</p>
+
+
+
+
+<p>Enjoy.</p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/08/25/the-airborne-toxic-event.html">Song of the Week: The Kids Are Ready To Die - The Airborne Toxic Event</a> 
+          
+        </h2>
+        <div class="meta">August 25, 2012</div>
+      </header>
+      <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify:track:0QyYeqnKkMWrVPjwKuvZKi" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+
+
+
+
+<p>Blown.</p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="quote">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/08/24/quote-from-alistair-smith.html">A quote to remember</a> 
+          
+        </h2>
+        <div class="meta">August 25, 2012</div>
+      </header>
+      <blockquote>
+        <p>At times of change, the learners are the ones who will inherit the world, while the knowers will be beautifully prepared for a world which no longer exists.</p>
+        <p>- <cite>Alistar Smith</cite></p>
+      </blockquote>
+      
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/08/23/self-employed.html">Self-employed &hearts;</a> 
+          
+        </h2>
+        <div class="meta">August 23, 2012</div>
+      </header>
+      <p><img src="http://distilleryimage8.instagram.com/6833d89aecf811e1b55e22000a1e9610_7.jpg" alt="self-employed &lt;3" /></p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://codegestalt.com/blog/2012/08/20/the-todone-list">The ToDone list</a> &rarr;
+        </h2>
+        <div class="meta">August 20, 2012</div>
+      </header>
+      <p>Me:</p>
+
+
+
+
+<blockquote><p>But a todo list in itself isn&rsquo;t the whole truth in improving my speed and quality of getting things done.
+Another important aspect is, that I have to see what I&rsquo;ve done through the day.
+Productivity isn&rsquo;t just a word or a feeling, for me it has to be visible.</p></blockquote>
+
+
+
+
+<p>I just released a new article over at our company blog. It&rsquo;s about lists and stuff.</p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/08/18/sell-your-crap-pay-your-dept-do-what-you-love.html">Sell your crap. Pay your dept. Do what you love.</a> 
+          
+        </h2>
+        <div class="meta">August 18, 2012</div>
+      </header>
+      <p>Nigel Marsh:</p>
+
+
+
+
+<blockquote><p>There are thousands and thousands of people out there
+living lives of quiet, screaming desperation who work long,
+hard hours, at jobs they hate, to enable them to buy things,
+they don&rsquo;t need to impress people they don&rsquo;t like.</p></blockquote>
+
+
+
+
+<p>Four years ago, Adam Baker and his wife decided to sell all their stuff, pay off their debts and go on
+an one year traveling journey. In the following talk, Adam talks about freedom.
+The freedom which most people today interpret as a cycle of going to school, work hard and hopefully earn
+enough money to pay off their debts. For Adam, Freedom has nothing to do with that and in this talk,
+he is going to talk about how he has rewritten his own script of what freedom is.</p>
+
+
+
+
+<iframe class="youtube" src="http://www.youtube.com/embed/9XRPbFIN4lk" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://joelrunyon.com/two3/an-unexpected-ass-kicking">An Unexpected Ass Kicking</a> &rarr;
+        </h2>
+        <div class="meta">August 17, 2012</div>
+      </header>
+      <p>Joel Runyon:</p>
+
+
+
+
+<blockquote><p>That’s the problem with a lot of people”, he continued, “they don’t try to do stuff that’s never been done before, so they never do anything, but if they try to do it, they find out there’s lots of things they can do that have never been done before.</p></blockquote>
+
+
+
+
+<p>This is definitely one of the coolest things I&rsquo;ve read in the past few weeks.</p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/08/12/sicilia.html">Sicilia</a> 
+          
+        </h2>
+        <div class="meta">August 12, 2012</div>
+      </header>
+      <p><img src="http://farm9.staticflickr.com/8433/7767480748_e9c7062342_c.jpg" alt="Palmento La Rosa" /></p>
+
+
+
+
+<p><img src="http://farm8.staticflickr.com/7114/7767485056_3728a32ae5_c.jpg" alt="Etna View 1" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8284/7767491736_037b62c0df_c.jpg" alt="Taormina" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8307/7767498694_19eca46553_c.jpg" alt="Etna road" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8307/7767505078_c822035155_c.jpg" alt="Etna View 2" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8013/7767509638_d94bdf1f23_c.jpg" alt="Biondi" /></p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/08/12/new-york.html">New York</a> 
+          
+        </h2>
+        <div class="meta">August 12, 2012</div>
+      </header>
+      <p><img src="http://farm9.staticflickr.com/8296/7767337214_41e31a91ce_c.jpg" alt="Times Square" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8448/7767384174_82619ac77c_c.jpg" alt="Wall Street" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8282/7767425148_8a6a96bea4_c.jpg" alt="Central Park" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8442/7767428678_5044c230c0_c.jpg" alt="Apple Store" /></p>
+
+
+
+
+<p><img src="http://farm8.staticflickr.com/7133/7767443612_cdb2cacf2d_c.jpg" alt="Lady Liberty" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8304/7767454182_6a943aa9b5_c.jpg" alt="Metro" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8296/7767462562_537938a701_c.jpg" alt="P.J. Clarkes" /></p>
+
+
+
+
+<p><img src="http://farm9.staticflickr.com/8428/7767466438_2cb4c266b4_c.jpg" alt="Some dark street" /></p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="https://www.shortcutfoo.com/">shortcutFoo: Learn shortcuts. Work faster</a> &rarr;
+        </h2>
+        <div class="meta">July 17, 2012</div>
+      </header>
+      <blockquote><p>Become a shortcut ninja through interactive learning and repetition. With thousands of commands at your fingertips and interactive drills, the shortcuts quickly become ingrained so your fingers can fly.</p></blockquote>
+
+
+
+
+<p>Sounds cool. I always wanted to learn the different Photoshop shortcuts which are out there. I think now is the time.</p>
+
+
+
+
+<p>I haven&rsquo;t done the Vim training yet, but maybe it is a good starting point for newbies?</p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+<div class="full-width">
+  <div class="wrapper">
+    <div class="pagination">
+    
+      <span class="previous">
+        
+          <a href="/page5">Previous</a>
+        
+      </span>
+    
+
+    <span class="extended">
+      <span class="page">
+        
+        <a href="/">1</a>
+        
+      </span>
+
+      
+        <span class="page">
+          
+            <a href="/page2">2</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/page3">3</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/page4">4</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/page5">5</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <span class="current-page">6</span>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/page7">7</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/page8">8</a>
+          
+        </span>
+      
+    </span>
+
+    
+      <span class="next">
+        <a href="/page7">Next</a>
+      </span>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+  </section>
+</body>
+</html>
