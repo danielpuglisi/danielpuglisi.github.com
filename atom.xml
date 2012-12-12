@@ -4,12 +4,25 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2012-12-10T22:28:41+01:00</updated>
+ <updated>2012-12-12T18:12:22+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Fuck You, Startup Yoda</title>
+   <link href="http://danielpuglisi.com/articles/2012/12/12/fuck-you-startup-yoda.html"/>
+   <updated>2012-12-12T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2012/12/12/fuck-you-startup-yoda</id>
+   <content type="html">&lt;p&gt;Micah Baldwin:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The voices that bring real value are often not folks with tens of thousands of twitter followers or facebook subscribers. They are true operators, the silent killers who write with a pent up requirement to share their search with fellow entrepreneurs. They understand, perhaps unknowingly, that they are learning through the collective unconscious of the startup ecosystem by participating, rather than being a sound bite.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I have nothing to add. Just read it.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Foldify</title>
