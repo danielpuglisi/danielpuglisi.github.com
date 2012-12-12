@@ -23,7 +23,8 @@ def create_file(type)
   quote = ask_for_quote if type == "quote"
 
   # Category of the article
-  category = ask_for_category unless type == "link" || type == "quote"
+  # category = ask_for_category unless type == "link" || type == "quote"
+  category = ask_for_category
   if category.to_s.empty?
     category_dir = "articles"
   else
