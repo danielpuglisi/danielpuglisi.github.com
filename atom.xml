@@ -4,12 +4,35 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2013-01-02T15:57:49+01:00</updated>
+ <updated>2013-01-25T15:44:08+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Rails Girls Basel</title>
+   <link href="http://danielpuglisi.com/articles/2013/01/25/rails-girls-basel.html"/>
+   <updated>2013-01-25T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2013/01/25/rails-girls-basel</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/posts/rails-girls-basel.jpg&quot; alt=&quot;Rails Girls is coming to Basel, 5. - 6. April 2013!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you always wondered how to design and create
+a homepage with your own hands?
+Or maybe you had this fancy business idea
+but didn&amp;rsquo;t knew (or hadn&amp;rsquo;t the money)
+to realize your online presence?&lt;/p&gt;
+
+&lt;p&gt;Well then maybe Rails Girls is something for you. On the 5th and 6th April we will
+unite at the mitte unternehmen and teach you how you can develop your very own
+web applications. So, if you&amp;rsquo;re a girl (sorry guys), have a MacBook/Laptop and
+the drive to learn how to programm join us on &lt;a href=&quot;https://www.facebook.com/RailsGirlsSwitzerland&quot;&gt;Facebook&lt;/a&gt; and stay tuned.
+We&amp;rsquo;ll release the application form in the next few days.&lt;/p&gt;
+
+&lt;p&gt;Cheers.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The Hobby Fund</title>
