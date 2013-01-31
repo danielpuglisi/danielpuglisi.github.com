@@ -4,12 +4,26 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2013-01-25T15:44:08+01:00</updated>
+ <updated>2013-01-31T19:00:08+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>Beautify your Chrome's New Tab with FancyTab</title>
+   <link href="http://danielpuglisi.com/articles/2013/01/31/beautify-your-chromes-new-tab-with-fancytab.html"/>
+   <updated>2013-01-31T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2013/01/31/beautify-your-chromes-new-tab-with-fancytab</id>
+   <content type="html">&lt;p&gt;I had some spare time yesterday and decided to update and customize one of my favourite Chrome Extensions called VisivoTab.
+What it does is, it just beautifies your Chrome&amp;rsquo;s New Tab with a background image from flickr. I&amp;rsquo;ve updated that extension according
+to the latest Chrome guidelines and customized it with my own flickr pictures.&lt;/p&gt;
+
+&lt;p&gt;You can download it &lt;a href=&quot;https://chrome.google.com/webstore/detail/fancytab/nijnkhgjogmbghnbnfandncgdinihhab?hl=en&quot;&gt;here&lt;/a&gt;.
+Give it a try and rate it (with 5 stars ;). Enjoy &amp;hearts;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Rails Girls Basel</title>
