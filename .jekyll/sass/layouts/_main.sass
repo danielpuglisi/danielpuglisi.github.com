@@ -2,17 +2,14 @@ body
   background: white
 
 .wrapper
-  width: 740px
+  width: 940px
   margin: 0 auto
 
 .header
-  padding: 60px 0 60px 0
-  text-align: center
   color: $black1 + #444
+  line-height: 140px
   .logo
-    margin-bottom: 10px
     font-size: 32px
-    line-height: 38px
     a
       border-bottom: none
       color: $black1
@@ -24,20 +21,23 @@ body
       font-weight: 200
     .directory
       font-weight: 600
+    .red
+      color: $red1
   .navigation
-    padding-top: 20px
+    li
+      float: left
     a
-      margin: 0 10px
-      font-size: 13px
+      margin-left: 80px
+      font-size: 16px
       border-bottom: none
   a
     color: $black1 + #666
     border-bottom: 1px dashed $black1 + #666
     &:hover
       color: $black1 + #111
-  .categories-list
-    margin-top: 15px
-    font-size: 13px
+
+.footer
+  padding: 40px 0
 
 .full-width
   width: 100%
@@ -100,6 +100,30 @@ body
           line-height: 10px
           padding: 1px 2px
           +text-shadow($red1 - #333 0 -1px 1px)
+
+  .full-width-image
+    background: center center no-repeat
+    color: #fff
+    font-weight: 900
+    padding: 80px 0
+    margin-bottom: 80px
+    +text-shadow(none)
+    p
+      +text-shadow(#000 0 0 50px)
+      margin-bottom: 24px
+      font-size: 32px
+      line-height: 48px
+    .button
+      font-size: 20px
+      font-weight: 400
+
+  .full-width-home
+    padding: 120px 0
+    background: url("http://farm8.staticflickr.com/7267/8157218730_643b240f68_h.jpg") center center no-repeat
+    background-position: center -240px
+
+  .home-quote
+    margin-top: 80px
 
   .pagination
     border-top: 1px solid $gray1 - #111

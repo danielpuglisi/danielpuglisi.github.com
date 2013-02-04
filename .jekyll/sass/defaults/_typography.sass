@@ -5,7 +5,7 @@ body
   font-family: "Open Sans", sans-serif
   line-height: 22px
   color: $black1
-  font-size: 15px
+  font-size: $default-font-size
   +text-shadow(#fff 0 1px 1px)
 
 a
@@ -62,7 +62,7 @@ article
     font-size: 25px
     line-height: 35px
   p, ul, ol, .highlight, blockquote, iframe, h3
-    margin-bottom: 20px
+    margin-bottom: 24px
   p
     line-height: 27px
     &:last-child
@@ -158,3 +158,36 @@ article
       h2
         font-size: 24px
         margin-bottom: 0
+
+h1
+  font-size: 32px
+  font-weight: 200
+  line-height: 48px
+
+p
+  font-size: 16px
+  line-height: 32px
+  &:first-letter
+    margin-left: 32px
+
+.text-align-right
+  text-align: right
+
+.text-align-left
+  text-align: left
+
+.button
+  background: $red1
+  padding: 8px 16px
+  color: #fff
+  +border-radius(5px)
+
+blockquote
+  p
+    font-size: 32px
+    line-height: 40px
+    font-style: italic
+  cite
+    font-size: 16px
+    font-style: normal
+    color: $black1 + #444
