@@ -1,0 +1,532 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    <title>Blog | Daniel Puglisi</title>
+  
+  <meta name="author" content="Daniel Puglisi" />
+  <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta property="og:description" content="{% for post in paginator.posts %}
+
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% when 'quote' %}
+    {% include quote.html %}
+  {% endcase %}
+
+{% endfor %}
+
+{% include pagination.html %}
+" />
+  <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <!-- <script src="/javascript/lte-ie7.js"></script> -->
+  <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32260198-1']);
+    _gaq.push(['_setDomainName', 'danielpuglisi.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+</head>
+<body>
+  <section class="full-width">
+
+    <section class="header">
+  <div class="wrapper">
+    <div class="inner">
+      <div class="logo left">
+        <a href="/" class="domain"><span class="red">&hearts;</span></a>
+      </div>
+
+      <!-- <div class="categories-list"> -->
+      <!--   I write about my -->
+      <!--   <a href="/blog/startup">startup life</a>, -->
+      <!--   <a href="/blog/productivity">productivity</a>, -->
+      <!--   <a href="/blog/programming">programming</a>, -->
+      <!--   <a href="/blog/music">music</a> and a lot of other things. -->
+      <!-- </div> -->
+
+      <div class="navigation right">
+        <ul>
+          <!-- <li><a href="/work">Projects</a></li> -->
+          <li><a href="/blog">Articles</a></li>
+          <!-- <li><a href="/contact">Contact</a></li> -->
+        </ul>
+
+        <!-- <a href="/atom.xml"><span aria-hidden="true" class="icon-feed"></span></a> -->
+        <!-- <a href="http://twitter.com/danielpuglisi"><span aria-hidden="true" class="icon-twitter"></a> -->
+        <!-- <a href="http://github.com/danielpuglisi"><span aria-hidden="true" class="icon-github"></a> -->
+        <!-- <a href="http://flickr.com/people/danielpuglisi"><span aria-hidden="true" class="icon-flickr"></a> -->
+        <!-- <a href="http://instagram.com/danielpuglisi"><span aria-hidden="true" class="icon-instagram"></a> -->
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://99u.com/tips/7223/How-Barack-Obama-Gets-Things-Done">How Barack Obama Gets Things Done</a> &rarr;
+        </h2>
+        <div class="meta">September 18, 2012</div>
+      </header>
+      <p>Barack Obama:</p>
+
+
+
+
+<blockquote><p>I don&rsquo;t want to make decisions about what I&rsquo;m eating or wearing, because I have too many other decisions to make.</p></blockquote>
+
+
+
+
+<p>An interesting insight which shows how Mister Obama is getting his things done.</p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/18/bridge.html">Bridge - We build connections</a> 
+          
+        </h2>
+        <div class="meta">September 18, 2012</div>
+      </header>
+      <p>I&rsquo;m happy to announce, that the first Bridge event will take place at the 3rd october at the mitte enterprise in Basel.
+For this occasion we&rsquo;ve updated the <a href="http://bridgetalks.ch">Bridge page</a> to give you a little insight of the venue
+and the first speakers which will attend at the 3rd october.</p>
+
+
+
+
+<p>The idea behind Bridge is to get people from different industries together and let them discover new and exciting stuff.
+We will start at 7pm and each talk will take about 20 minutes. After the talks you will get the chance to get in touch
+with the speakers and the other attendees to discuss the main topics or other stuff. Or maybe you will just let the evening wind
+down with a refreshing <a href="http://www.unser-bier.ch/"><strong>Unser Bier</strong></a> at the mitte bar. It&rsquo;s your call.</p>
+
+
+
+
+<p>Anyway. We would be happy to see you at the 3rd october. And if you have a second, please tell your friends about Bridge. We
+love you &hearts;</p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://codegestalt.com/fistbump/2012/09/17/programming-motherfucker">Programming, Motherfucker. Do you speak it?</a> &rarr;
+        </h2>
+        <div class="meta">September 17, 2012</div>
+      </header>
+      <p>Me:</p>
+
+
+
+
+<blockquote><p>If you are honest, most of the time you already know what&rsquo;s best for your clients.
+The thing that really needs time is to convince them to use the best solution.
+Because most of the clients don&rsquo;t know what they want or need.</p></blockquote>
+
+
+
+
+<p>I wrote a new article on our company blog <a href="http://codegestalt.com/fistbump/2012/09/17/programming-motherfucker">The Exploding Fistbump</a>.
+Check it out.</p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/11/daughter.html">Daughter</a> 
+          
+        </h2>
+        <div class="meta">September 11, 2012</div>
+      </header>
+      <p>Dear lovely people of the world. I have to tell you something. I love listening to music.
+Without music, my life wouldn&rsquo;t be the same, I wouldn&rsquo;t be the same. I listening to a lot of music
+and that means I listening to many different artists, to many different lyrics,
+to many different tunes and to many different genres. And once in a while I stumble across something special,
+something that I like from the first few seconds on, something that moves me, something that doesn&rsquo;t let
+me sleep and I need to listen to it before I can dive into the land of dreams.</p>
+
+
+
+
+<p>This week I found such a gem. The band is called <strong>Daughter</strong>. I can&rsquo;t get enough of the beautiful
+and strong melodies, the soft and lovely voice and the stunning and dramatic lyrics.</p>
+
+
+
+
+<p>But enough from me. The best thing I can do right now is to show you a live session from their song <strong>Youth</strong>.
+Turn up the volume. Eliminate all background noises. Press play on the video below. Enter full screen mode. Enjoy.</p>
+
+
+
+
+<iframe src="http://player.vimeo.com/video/32900076?byline=0&amp;portrait=0" class="vimeo" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://www.visualizing.org/full-screen/42273">Programming Languages Influence Network Graph</a> &rarr;
+        </h2>
+        <div class="meta">September 10, 2012</div>
+      </header>
+      <p><img src="/images/posts/programming-languages-influence-network-graph-ruby.jpg" alt="Which programming languages influenced ruby and were influenced by ruby" /></p>
+
+
+
+
+<p>Ramiro Gómez created a graph which shows the different influences of programming languages.
+In the image above, you can see how Ruby was influenced (red lines) by Python or C++ and influenced (blue lines)
+languages like CoffeeScript or Windows PowerShell.</p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/09/sky-isnt-the-limit.html">Sky isn't the limit</a> 
+          
+        </h2>
+        <div class="meta">September  9, 2012</div>
+      </header>
+      <p><a href="http://500px.com/photo/13519609"><img src="http://pcdn.500px.net/13519609/ff7a79a93b6255defcb1f115b5ee50c24fc99061/4.jpg" alt="Sky isn't the limit by Daniel Puglisi (danielpuglisi) on 500px.com" border="0" style="margin: 0 0 5px 0;"></a><br/><font><a href="http://500px.com/photo/13519609">Sky isn&rsquo;t the limit</a> by <a href="http://500px.com/danielpuglisi">Daniel Puglisi</a></font></p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/07/developing-shopify-themes-in-your-favourite-environment.html">Developing Shopify Themes in your favourite environment</a> 
+          
+        </h2>
+        <div class="meta">September  7, 2012</div>
+      </header>
+      <p><strong>TL;DR: I hate it when I can&rsquo;t develop code in my favourite environment. So I found this glorious gem
+called <a href="https://github.com/Shopify/shopify_theme">shopify_theme</a>
+which automatically syncs shopify themes to your connected shop.</strong></p>
+
+
+
+
+<p>I&rsquo;ve been lately working on a <a href="http://shopify.com">Shopify</a> store and the client who I work for
+wishes a customized desgin which looks like their original website. I had to find out, that
+this process wasn&rsquo;t that compatible with my expectation how to develop code
+and Shopify&rsquo;s integrated webeditor.</p>
+
+
+
+
+<p>Truth to be told, Shopify&rsquo;s online editor sucks (to be fair, every webeditor sucks when you wan&rsquo;t
+to develop code with it). So I was looking for another solution. Shopify promotes that you can
+develop templates with their <a href="http://wiki.shopify.com/Shopify_Textmate_Bundle">Textmate Bundle</a>.
+Hmm no thank you&hellip; I didn&rsquo;t wanted to install Textmate only for developing one template.</p>
+
+
+
+
+<p>Then there was this <a href="http://wiki.shopify.com/Theme_Sync_App">OSX App</a> which
+I got recommended from the Shopify Support. You can download &amp; upload your themes with it but
+the performance is terrible. Also a no go.</p>
+
+
+
+
+<p>The final solution I came up with and using right now is this remarkably gem called
+<a href="https://github.com/Shopify/shopify_theme">shopify_theme</a> from Shopify itself.
+It can watch for changes on theme files and if it detects something, it automatically
+syncs the files to the shop. I just ask myself why they don&rsquo;t list this gem anywhere.
+Maybe I haven&rsquo;t searched enough.</p>
+
+
+
+
+<p>Anyway. This is how I like to work. Thank you Shopify.</p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/06/hansel-and-gretel-witch-hunters.html">Hansel and Gretel: Witch Hunters</a> 
+          
+        </h2>
+        <div class="meta">September  6, 2012</div>
+      </header>
+      <iframe class="youtube" src="http://www.youtube.com/embed/u910f05Sjtw" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+<p>w00t!</p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="quote">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/05/a-quote-from-freshfey.html">A quote from freshfey</a> 
+          
+        </h2>
+        <div class="meta">September  5, 2012</div>
+      </header>
+      <blockquote>
+        <p>People are always telling you what to do, but what's right for them may not be right for you. Life is not a rehearsal. It's the real thing.</p>
+        <p>- <cite>Feyyaz Alingan</cite></p>
+      </blockquote>
+      
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/05/song-of-the-week-red-dawn-rising---birdy-nam-nam.html">Song of the Week: Red Dawn Rising - Birdy Nam Nam</a> 
+          
+        </h2>
+        <div class="meta">September  5, 2012</div>
+      </header>
+      <iframe src="https://embed.spotify.com/?uri=spotify:track:4LIuTkElFDA3U8mUcCSxET" class="spotify" frameborder="0" allowtransparency="true"></iframe>
+
+
+
+
+<p>Birdy Nam Nam, concert, Switzerland, Basel, Kaserne, 27. October, are you coming too?</p>
+
+
+
+
+<p><a href="http://www.kaserne-basel.ch/Musik/Birdy_Nam_Nam/Birdy_Nam_Nam_2012-1">Some infos</a>.</p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+<div class="full-width">
+  <div class="wrapper">
+    <div class="pagination">
+    
+      <span class="previous">
+        
+          <a href="/blog/page4">Previous</a>
+        
+      </span>
+    
+
+    <span class="extended">
+      <span class="page">
+        
+        <a href="/blog/">1</a>
+        
+      </span>
+
+      
+        <span class="page">
+          
+            <a href="/blog/page2">2</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page3">3</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page4">4</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <span class="current-page">5</span>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page6">6</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page7">7</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page8">8</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page9">9</a>
+          
+        </span>
+      
+    </span>
+
+    
+      <span class="next">
+        <a href="/blog/page6">Next</a>
+      </span>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+    <div class="footer">
+      <div class="wrapper">
+        <fieldset>
+          <legend>&hearts;</legend>
+        </fieldset>
+        <div class="center">
+          Handcrafted with a lot of love and passion by Daniel Puglisi
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

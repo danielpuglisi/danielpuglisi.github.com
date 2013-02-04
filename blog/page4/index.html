@@ -1,0 +1,490 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+    <title>Blog | Daniel Puglisi</title>
+  
+  <meta name="author" content="Daniel Puglisi" />
+  <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <meta property="og:description" content="{% for post in paginator.posts %}
+
+  {% case post.layout %}
+  {% when 'post' %}
+    {% include post.html %}
+  {% when 'link' %}
+    {% include link.html %}
+  {% when 'quote' %}
+    {% include quote.html %}
+  {% endcase %}
+
+{% endfor %}
+
+{% include pagination.html %}
+" />
+  <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen, projection" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <!-- <script src="/javascript/lte-ie7.js"></script> -->
+  <script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32260198-1']);
+    _gaq.push(['_setDomainName', 'danielpuglisi.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+</head>
+<body>
+  <section class="full-width">
+
+    <section class="header">
+  <div class="wrapper">
+    <div class="inner">
+      <div class="logo left">
+        <a href="/" class="domain"><span class="red">&hearts;</span></a>
+      </div>
+
+      <!-- <div class="categories-list"> -->
+      <!--   I write about my -->
+      <!--   <a href="/blog/startup">startup life</a>, -->
+      <!--   <a href="/blog/productivity">productivity</a>, -->
+      <!--   <a href="/blog/programming">programming</a>, -->
+      <!--   <a href="/blog/music">music</a> and a lot of other things. -->
+      <!-- </div> -->
+
+      <div class="navigation right">
+        <ul>
+          <!-- <li><a href="/work">Projects</a></li> -->
+          <li><a href="/blog">Articles</a></li>
+          <!-- <li><a href="/contact">Contact</a></li> -->
+        </ul>
+
+        <!-- <a href="/atom.xml"><span aria-hidden="true" class="icon-feed"></span></a> -->
+        <!-- <a href="http://twitter.com/danielpuglisi"><span aria-hidden="true" class="icon-twitter"></a> -->
+        <!-- <a href="http://github.com/danielpuglisi"><span aria-hidden="true" class="icon-github"></a> -->
+        <!-- <a href="http://flickr.com/people/danielpuglisi"><span aria-hidden="true" class="icon-flickr"></a> -->
+        <!-- <a href="http://instagram.com/danielpuglisi"><span aria-hidden="true" class="icon-instagram"></a> -->
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://feross.org/html5-fullscreen-api-attack">HTML5 Fullscreen API Attack</a> &rarr;
+        </h2>
+        <div class="meta">October 10, 2012</div>
+      </header>
+      <p>Feross Aboukhadijeh:</p>
+
+
+
+
+<blockquote><p>Links are the bread and butter of the web. People click links all day long — people are pretty trained to think that clicking a link on the web is safe. Saavy users may check the link’s destination in the status bar before clicking, however, in this case it won’t do them any good.</p></blockquote>
+
+
+
+
+<p>Additional security tips:</p>
+
+
+
+
+<ul>
+<li>Don&rsquo;t use Internet Explorer, download a better browser <a href="https://www.google.com/intl/en/chrome/browser/">here</a></li>
+<li>Don&rsquo;t use Windows, download or buy a better OS <a href="http://www.ubuntu.com/">here</a> or <a href="http://www.apple.com/osx/">here</a></li>
+<li>Don&rsquo;t use Microsoft products at all, they are shitty anyway</li>
+<li>Don&rsquo;t listen to people who say &ldquo;people who say Microsoft is shit have no idea&rdquo;</li>
+<li>Read <a href="http://www.vanwensveen.nl/rants/microsoft/IhateMS_1.html">this</a> article and share it with your friends</li>
+</ul>
+
+
+
+
+<p><strong>By the way</strong>: I don&rsquo;t like Microsoft</p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://37signals.com/svn/posts/3264-automating-with-convention-introducing-sub">Automating with convention: Introducing sub</a> &rarr;
+        </h2>
+        <div class="meta">October  9, 2012</div>
+      </header>
+      <p>Nick:</p>
+
+
+
+
+<blockquote><p>When I started my on-call shifts, we had pretty little in the way of automation for day-to-day issues. Tasks like SSH’ing into our cluster, starting a Rails console, or doing a deep search through our gigantic mail directories, were either shelved away in someone’s bashrc, history log, or just ingrained into someone’s memory. This pain was also felt by a few other of my fellow programmers, and we started cobbling together a Git repo simply named “37s shell scripts”.</p></blockquote>
+
+
+
+
+<p>We had something similiar in mind for our Codegestalt environment and <strong><a href="https://github.com/37signals/sub">sub</a></strong>
+looks like a good solution to start instead of doing everything from scratch.</p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://codegestalt.com/fistbump/2012/10/08/busy-hustling">Busy hustling</a> &rarr;
+        </h2>
+        <div class="meta">October  8, 2012</div>
+      </header>
+      <p>Yo folks, sorry I haven&rsquo;t provided you with any new material the last days.
+I was busy working with my G&rsquo;s on <a href="http://bridgetalks.ch">Bridge</a>. We held our first
+Event and it was <strong>f**king</strong> awesome (Don&rsquo;t know why I censor fuck). Check out the link
+in the title for a really awesome talk you should watch. Additionally I&rsquo;m working
+on two new product ideas which I may share with you guys as soon as they take shape.
+Until then, I keep hustling and you should too.</p>
+
+
+
+
+<p><strong>Note:</strong> Grammar Nazi may not approve but you know what?</p>
+
+
+
+
+<p><img src="http://24.media.tumblr.com/tumblr_mah7frKwHW1qzsj6so1_400.gif" alt="I dont fucking care" /></p>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/10/02/sight.html">Sight</a> 
+          
+        </h2>
+        <div class="meta">October  2, 2012</div>
+      </header>
+      <iframe src="http://player.vimeo.com/video/46304267?title=0&amp;byline=0&amp;portrait=0" class="vimeo" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/26/brace-yourself-megabox-is-coming.html">Brace yourself, Megabox is coming</a> 
+          
+        </h2>
+        <div class="meta">September 26, 2012</div>
+      </header>
+      <iframe class="youtube" src="http://www.youtube.com/embed/Kw04ckfO-yA" frameborder="0" allowfullscreen></iframe>
+
+
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://typicalprogrammer.com/?p=143">Linus Torvalds goes off on Linux and Git</a> &rarr;
+        </h2>
+        <div class="meta">September 26, 2012</div>
+      </header>
+      <p>Linus Torvalds:</p>
+
+
+
+
+<blockquote><p>The first Git For Dummies and Git Visual Quickstart books are going to be out in a couple of months, and that is the beginning of the end as far as I’m concerned. Those books mean the end of git expertise and github reputation as reliable indicators of geek status. Once a technology is adopted by the masses the extreme geeks find something more esoteric. Look at what happened to Ruby on Rails. The people stumbling their way through Rails to-do list tutorials have never even heard of DHH.</p></blockquote>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://oculusvr.com/">Oculus Rift</a> &rarr;
+        </h2>
+        <div class="meta">September 25, 2012</div>
+      </header>
+      <iframe src="http://player.vimeo.com/video/49294325?title=0&amp;byline=0&amp;portrait=0" class="vimeo" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/24/recommendations.html">Recommendations</a> 
+          
+        </h2>
+        <div class="meta">September 24, 2012</div>
+      </header>
+      <p>Some weird definition of <strong>sharing is caring</strong>:</p>
+
+
+
+
+<blockquote><p>When you have something (usually food) and your friend wants some, its common to use this phrase.</p>
+
+<p>*le you eating pizza while friend walks up*<br/>
+Them: Can I have some?<br/>
+You: No.<br/>
+Them: Sharing is caring!<br/>
+You: I don&rsquo;t care.</p></blockquote>
+
+
+
+
+<p>Anyway, today I want to share some of my favourite movies and TV Series with you. Check out <a href="/recommendations.html">this</a>.
+The list is sorted by Imdb ratings. Maybe I will add some books another day, but not now. If you have some stuff you want
+me to check out, please drop me a line.</p>
+
+
+
+
+<p>Thanks and enjoy &hearts;</p>
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="link">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          <a href="http://www.smashingmagazine.com/2012/09/21/not-all-doom-gloom-web-community/">It’s Not All Doom And Gloom On The Web</a> &rarr;
+        </h2>
+        <div class="meta">September 24, 2012</div>
+      </header>
+      <p>Christian Heilmann:</p>
+
+
+
+
+<blockquote><p>How do we win back the hearts and minds of developers? I think we need to create new products and take different approaches than we have in the past. We should focus on making things easier for people, not striving for purity and delivering like we have in the past. We need to leave our comfort zone, because that is when the magic happens.</p></blockquote>
+
+
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+  
+    <article class="post">
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <h2>
+          
+            <a href="/articles/2012/09/19/paris-vs-new-york.html">Paris vs New York</a> 
+          
+        </h2>
+        <div class="meta">September 19, 2012</div>
+      </header>
+      <iframe src="http://player.vimeo.com/video/49545320?title=0&amp;byline=0&amp;portrait=0" class="vimeo" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+
+
+      
+    </div>
+  </div>
+</article>
+
+  
+
+
+
+<div class="full-width">
+  <div class="wrapper">
+    <div class="pagination">
+    
+      <span class="previous">
+        
+          <a href="/blog/page3">Previous</a>
+        
+      </span>
+    
+
+    <span class="extended">
+      <span class="page">
+        
+        <a href="/blog/">1</a>
+        
+      </span>
+
+      
+        <span class="page">
+          
+            <a href="/blog/page2">2</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page3">3</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <span class="current-page">4</span>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page5">5</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page6">6</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page7">7</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page8">8</a>
+          
+        </span>
+      
+        <span class="page">
+          
+            <a href="/blog/page9">9</a>
+          
+        </span>
+      
+    </span>
+
+    
+      <span class="next">
+        <a href="/blog/page5">Next</a>
+      </span>
+    
+    </div>
+  </div>
+</div>
+
+
+
+
+    <div class="footer">
+      <div class="wrapper">
+        <fieldset>
+          <legend>&hearts;</legend>
+        </fieldset>
+        <div class="center">
+          Handcrafted with a lot of love and passion by Daniel Puglisi
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
