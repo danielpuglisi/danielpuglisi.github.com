@@ -1,19 +1,4 @@
 ---
-layout: blog
+layout: page
 title: "Daniel Puglisi - Designer. Developer. Co-Founder of Codegestalt."
 ---
-
-{% for post in paginator.posts %}
-
-  {% case post.layout %}
-  {% when 'post' %}
-    {% include post.html %}
-  {% when 'link' %}
-    {% include link.html %}
-  {% when 'quote' %}
-    {% include quote.html %}
-  {% endcase %}
-
-{% endfor %}
-
-{% include pagination.html %}
