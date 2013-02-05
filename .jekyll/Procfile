@@ -1,2 +1,2 @@
-jekyll: jekyll --server
-compass: compass watch
+jekyll: bundle exec jekyll --server
+compass: bundle exec compass watch

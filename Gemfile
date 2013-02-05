@@ -1,6 +1,8 @@
 source :rubygems
 gem 'colored'
 gem 'foreman'
+gem 'sass'
+gem 'sass-globbing'
 gem 'compass'
 gem 'jekyll'
 gem 'rdiscount'

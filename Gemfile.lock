@@ -39,6 +39,8 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     sass (3.2.5)
+    sass-globbing (1.0.0)
+      sass (>= 3.1)
     syntax (1.0.0)
     thor (0.17.0)
     titleize (1.2.1)
@@ -54,3 +56,5 @@ DEPENDENCIES
   imdb_lists
   jekyll
   rdiscount
+  sass
+  sass-globbing
