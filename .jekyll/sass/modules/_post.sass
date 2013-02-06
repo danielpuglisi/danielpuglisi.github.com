@@ -1,4 +1,10 @@
 article
+  .wrapper
+    padding: 70px 0 90px 0
+    border-top: 1px solid $gray1 - #111
+    .inner
+      width: 740px
+      margin: 0 auto
   header
     margin-bottom: 30px
     text-align: center
@@ -88,3 +94,31 @@ article
     font-style: italic
     #disqus_thread
       margin-top: 30px
+
+@media (max-width: 1070px)
+
+  article
+    padding: 0
+    .wrapper
+      .inner
+        padding-top: 30px
+        width: auto
+        img
+          width: 100%
+      .spotify
+        width: 420px
+        height: 500px
+      .youtube, .vimeo, .flickr-slideshow
+        width: 100%
+        height: 340px
+
+@media (max-width: 720px)
+
+  article
+    padding: 0
+    .wrapper
+      .inner
+        padding: 0
+      .spotify
+        width: 260px
+        height: 340px

@@ -12,7 +12,6 @@ body
       &:hover
         // color: $black1 + #333
         color: $red1
-
     .domain
       font-weight: 200
     .directory
@@ -52,86 +51,46 @@ body
   .wrapper
     .inner
       padding: 0 20px
-  article
-    .wrapper
-      padding: 70px 0 90px 0
-      border-top: 1px solid $gray1 - #111
-      .inner
-        width: 740px
-        margin: 0 auto
-    .recommendations .list
-      header
-        h2
-          margin-bottom: -20px
-          font-size: 12px
-          .meta
-            font-weight: 400
-            padding-left: 3px
-      ul
-        padding: 0
-        li
-          list-style: none
-          display: inline-block
-          line-height: 35px
-          position: relative
-          a
-            padding: 6px 5px
-            margin: 2px
-            background: #f7f7f7
-            color: $black1
-            &:hover
-              background: $red1
-              color: #fff
-              +text-shadow($red1 - #333 0 -1px 1px)
-        .new
-          font-weight: 600
-          background: $yellow1
-          font-size: 8px
-          position: absolute
-          color: #fff
-          top: -1px
-          right: -1px
-          line-height: 10px
-          padding: 1px 2px
-          +text-shadow($red1 - #333 0 -1px 1px)
 
-  .full-width-image
-    background: center center no-repeat
+.full-width-image
+  background: center center no-repeat
+  color: #fff
+  font-weight: 900
+  padding: 80px 0
+  margin-bottom: 80px
+  +text-shadow(none)
+  p
+    +text-shadow(#000 0 0 50px)
+    margin-bottom: 24px
+    font-size: 32px
+    line-height: 48px
+  .button
+    font-size: 20px
+    font-weight: 400
+
+// Home specific
+
+.full-width-home
+  padding: 120px 0
+  background: url("http://farm8.staticflickr.com/7267/8157218730_643b240f68_h.jpg") center center no-repeat
+  background-position: center -240px
+
+.home-quote
+  margin-top: 80px
+
+.pagination
+  border-top: 1px solid $gray1 - #111
+  font-size: 12px
+  padding: 48px 0
+  text-align: center
+  .page, .previous, .next
+    a, span
+      padding: 4px 12px
+  .current-page, a:hover
+    background: $red1
     color: #fff
-    font-weight: 900
-    padding: 80px 0
-    margin-bottom: 80px
-    +text-shadow(none)
-    p
-      +text-shadow(#000 0 0 50px)
-      margin-bottom: 24px
-      font-size: 32px
-      line-height: 48px
-    .button
-      font-size: 20px
-      font-weight: 400
-
-  .full-width-home
-    padding: 120px 0
-    background: url("http://farm8.staticflickr.com/7267/8157218730_643b240f68_h.jpg") center center no-repeat
-    background-position: center -240px
-
-  .home-quote
-    margin-top: 80px
-
-  .pagination
-    border-top: 1px solid $gray1 - #111
-    font-size: 12px
-    padding: 48px 0
-    text-align: center
-    .page, .previous, .next
-      a, span
-        padding: 4px 12px
-    .current-page, a:hover
-      background: $red1
-      color: #fff
-      +text-shadow($black1 0 1px 1px)
-      +border-radius(3px)
+    +text-shadow($black1 0 1px 1px)
+    +border-radius(3px)
 
 @media (max-width: 1070px)
 
@@ -145,20 +104,6 @@ body
       padding: 200px 0 40px 0
       background-position: -260px -240px
 
-    article
-      padding: 0
-      .wrapper
-        .inner
-          padding-top: 30px
-          width: auto
-          img
-            width: 100%
-        .spotify
-          width: 420px
-          height: 500px
-        .youtube, .vimeo, .flickr-slideshow
-          width: 100%
-          height: 340px
     .pagination
       padding: 35px 0
       width: 100%
@@ -169,15 +114,6 @@ body
     .navigation
       a
         margin-left: 25px
-
-  article
-    padding: 0
-    .wrapper
-      .inner
-        padding: 0
-      .spotify
-        width: 260px
-        height: 340px
 
   .pagination
     padding: 30px 0
