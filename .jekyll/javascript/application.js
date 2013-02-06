@@ -1,28 +1,9 @@
-jQuery(document).ready(function($){
+$(document).ready(function(){
 
-  $('#github').mouseover(function(){
-    $('#mousing').text("GitHub");
-  });
+  $('.tiles li').hover(function() {
+    $('a', this).stop(true,true).fadeIn('fast');
+  }, function() {
+    $('a', this).fadeOut('fast');
+  })
 
-  $('#github').mouseout(function(){
-    $('#mousing').html("&nbsp;");
-  });
-
-  $('#twitter').mouseover(function(){
-    $('#mousing').text("Twitter");
-  });
-
-  $('#twitter').mouseout(function(){
-    $('#mousing').html("&nbsp;");
-  });
-
-  $('#rss').mouseover(function(){
-    $('#mousing').text("RSS");
-  });
-
-  $('#rss').mouseout(function(){
-    $('#mousing').html("&nbsp;");
-  });
-
-
-});
+})

@@ -54,8 +54,9 @@ body
 
 .full-width-box
   .wrapper
-    border-top: 1px solid $gray1 - #111
     padding: 80px 0
+  .border-top
+    border-top: 1px solid $gray1 - #111
   p
     font-size: 24px
     line-height: 40px
@@ -73,9 +74,10 @@ body
   +text-shadow(none)
   p
     +text-shadow(#000 0 0 50px)
-    margin-bottom: 24px
     font-size: 32px
     line-height: 48px
+    &:first-letter
+      margin: 0
   .button
     font-size: 20px
     font-weight: 400
@@ -85,6 +87,13 @@ body
 .full-width-home
   padding: 120px 0
   background: url("http://farm8.staticflickr.com/7267/8157218730_643b240f68_h.jpg") center center no-repeat
+  background-position: center -240px
+  p
+    margin-bottom: 24px
+
+.full-width-work
+  padding: 120px 0
+  background: url("http://farm9.staticflickr.com/8467/8150313007_3739642a7e_h.jpg") center center no-repeat
   background-position: center -240px
 
 .home-quote
