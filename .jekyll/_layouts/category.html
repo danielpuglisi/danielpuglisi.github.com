@@ -1,16 +1,29 @@
 ---
-layout: blog
+layout: page
 ---
 
-<article class="category-title">
+<div class="full-width-box">
   <div class="wrapper">
-    <div class="inner">
-      <header>
-        <h1>{{ page.title }}</h1>
-      </header>
+    <div class="inner center">
+      <p class="categories">
+        I write about my
+        <a href="/blog/startup">startup life</a>,
+        <a href="/blog/productivity">productivity</a>,
+        <a href="/blog/programming">programming</a>,
+        <a href="/blog/music">music</a> and a lot of other things.
+      </p>
     </div>
   </div>
-</article>
+</div>
+
+
+<div class="full-width-box">
+  <div class="wrapper">
+    <div class="inner center">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+</div>
 
 <div class="category-posts">
   {% for post in paginator.posts %}

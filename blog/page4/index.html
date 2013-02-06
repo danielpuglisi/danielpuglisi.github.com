@@ -8,7 +8,21 @@
   <meta name="author" content="Daniel Puglisi" />
   <meta name="description" content="Developer, Designer and le Creed at Codegestalt." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-  <meta property="og:description" content="{% for post in paginator.posts %}
+  <meta property="og:description" content="&lt;div class=&quot;full-width-box&quot;&gt;
+  &lt;div class=&quot;wrapper&quot;&gt;
+    &lt;div class=&quot;inner center&quot;&gt;
+      &lt;p class=&quot;categories&quot;&gt;
+        I write about my
+        &lt;a href=&quot;/blog/startup&quot;&gt;startup life&lt;/a&gt;,
+        &lt;a href=&quot;/blog/productivity&quot;&gt;productivity&lt;/a&gt;,
+        &lt;a href=&quot;/blog/programming&quot;&gt;programming&lt;/a&gt;,
+        &lt;a href=&quot;/blog/music&quot;&gt;music&lt;/a&gt; and a lot of other things.
+      &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+{% for post in paginator.posts %}
 
   {% case post.layout %}
   {% when 'post' %}
@@ -76,6 +90,20 @@
     </div>
   </div>
 </section>
+
+<div class="full-width-box">
+  <div class="wrapper">
+    <div class="inner center">
+      <p class="categories">
+        I write about my
+        <a href="/blog/startup">startup life</a>,
+        <a href="/blog/productivity">productivity</a>,
+        <a href="/blog/programming">programming</a>,
+        <a href="/blog/music">music</a> and a lot of other things.
+      </p>
+    </div>
+  </div>
+</div>
 
 
 
