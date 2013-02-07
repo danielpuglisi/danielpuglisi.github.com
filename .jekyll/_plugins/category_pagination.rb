@@ -90,6 +90,17 @@ module Jekyll
     #                   "previous_page" => <Number>,
     #                   "next_page" => <Number> }}
     def paginate(site, page)
+
+      ########################################
+      # HACK TO FIX PAGINATION ON CATEGORIES #
+      # site.config['paginate'] = 1000       #
+      # HACK TO FIX PAGINATION ON CATEGORIES #
+      ########################################
+
+      # unless page.paginate
+      #   site.config['paginate'] = nil
+      # end
+
       category = page.dir.split('/').last
       if category != nil and site.site_payload['site']['categories'].has_key? category
         # If we're in a category's folder, paginate by category.
