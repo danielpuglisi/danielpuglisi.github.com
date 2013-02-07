@@ -3,7 +3,7 @@ layout: link
 title: "Stepping off the ledge"
 link: "http://devblog.avdi.org/2012/07/09/available-for-pair-programming-appointments/"
 date: 2012-07-09 02
-permalink: "/2012/07/09/stepping-off-the-ledge.html"
+permalink: "/articles/2012/07/09/stepping-off-the-ledge.html"
 ---
 
 Avdi Grimm:

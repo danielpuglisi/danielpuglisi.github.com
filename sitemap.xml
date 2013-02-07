@@ -1,70 +1,74 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://danielpuglisi.com/personal/2012/06/16/reading-day.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/06/16/reading-day.html</loc>
+        <lastmod>2013-02-07T21:55:23+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/personal/2012/06/17/soon.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/06/17/soon.html</loc>
+        <lastmod>2013-02-07T21:55:16+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/personal/2012/06/18/we-are-going-to-france.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/06/18/we-are-going-to-france.html</loc>
+        <lastmod>2013-02-07T21:56:00+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/personal/2012/06/24/rulu-2012.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/06/24/rulu-2012.html</loc>
+        <lastmod>2013-02-07T21:56:20+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/personal/2012/06/28/summer-maddafakkas.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/06/28/summer-maddafakkas.html</loc>
+        <lastmod>2013-02-07T21:56:43+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/2012/06/29/the-startup-hustler.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/06/29/the-startup-hustler.html</loc>
+        <lastmod>2013-02-07T21:49:34+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/2012/06/30/chillin.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/06/30/chillin.html</loc>
+        <lastmod>2013-02-07T21:49:57+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/rec/2012/07/09/the-100-dollar-startup.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/07/09/the-100-dollar-startup.html</loc>
+        <lastmod>2013-02-07T21:48:08+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/2012/07/09/stepping-off-the-ledge.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://danielpuglisi.com/2012/07/10/game-of-thrones-meets-minecraft.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://danielpuglisi.com/2012/07/10/github-raises-100m-funding.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://danielpuglisi.com/2012/07/10/these-days-a-novel.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://danielpuglisi.com/2012/07/11/teaching-the-obvious.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://danielpuglisi.com/2012/07/11/ouya-a-new-kind-of-video-game-console.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/07/09/stepping-off-the-ledge.html</loc>
+        <lastmod>2013-02-07T21:51:25+01:00</lastmod>
     </url>
     <url>
         <loc>
-            http://danielpuglisi.com/2012/07/11/some-serious-procrastination-is-going-on-here.html
+            http://danielpuglisi.com/articles/2012/07/10/game-of-thrones-meets-minecraft.html
         </loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <lastmod>2013-02-07T21:52:16+01:00</lastmod>
     </url>
     <url>
-        <loc>http://danielpuglisi.com/2012/07/11/submarine-cable-map-2012.html</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <loc>http://danielpuglisi.com/articles/2012/07/10/github-raises-100m-funding.html</loc>
+        <lastmod>2013-02-07T21:52:34+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://danielpuglisi.com/articles/2012/07/10/these-days-a-novel.html</loc>
+        <lastmod>2013-02-07T21:52:46+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://danielpuglisi.com/articles/2012/07/11/teaching-the-obvious.html</loc>
+        <lastmod>2013-02-07T21:54:02+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://danielpuglisi.com/articles/2012/07/11/ouya-a-new-kind-of-video-game-console.html
+        </loc>
+        <lastmod>2013-02-07T21:53:31+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://danielpuglisi.com/articles/2012/07/11/some-serious-procrastination-is-going-on-here.html
+        </loc>
+        <lastmod>2013-02-07T21:53:40+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://danielpuglisi.com/articles/2012/07/11/submarine-cable-map-2012.html</loc>
+        <lastmod>2013-02-07T21:53:50+01:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/articles/2012/07/12/vim-you-complete-me.html</loc>
@@ -396,27 +400,27 @@
     </url>
     <url>
         <loc>http://danielpuglisi.com/blog/blog/</loc>
-        <lastmod>2013-02-06T20:35:51+01:00</lastmod>
+        <lastmod>2013-02-07T21:56:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/blog/music/blog/music/</loc>
-        <lastmod>2013-02-06T23:12:32+01:00</lastmod>
+        <lastmod>2013-02-07T21:56:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/blog/productivity/blog/productivity/</loc>
-        <lastmod>2013-02-06T23:12:32+01:00</lastmod>
+        <lastmod>2013-02-07T21:56:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/blog/programming/blog/programming/</loc>
-        <lastmod>2013-02-06T23:12:32+01:00</lastmod>
+        <lastmod>2013-02-07T21:56:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/blog/startup/blog/startup/</loc>
-        <lastmod>2013-02-06T23:12:32+01:00</lastmod>
+        <lastmod>2013-02-07T21:56:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/</loc>
-        <lastmod>2013-02-06T22:48:57+01:00</lastmod>
+        <lastmod>2013-02-07T21:56:43+01:00</lastmod>
     </url>
     <url>
         <loc>http://danielpuglisi.com/recommendations.html</loc>

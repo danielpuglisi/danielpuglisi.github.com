@@ -2,7 +2,7 @@
 layout: post
 title: "Spotify Playlist: Summer Maddafakkas"
 category: music
-permalink: "/personal/2012/06/28/summer-maddafakkas.html"
+permalink: "/articles/2012/06/28/summer-maddafakkas.html"
 ---
 
 <iframe src="https://embed.spotify.com/?uri=spotify:user:116689447:playlist:4x748cfeeSX9Ie5SATVmDv&theme=white&view=coverart" frameborder="0" allowtransparency="true" class="spotify"></iframe>

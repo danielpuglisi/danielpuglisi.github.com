@@ -3,7 +3,7 @@ layout: link
 title: "Teaching The Obvious"
 date: 2012-07-11 0
 link: "http://excid3.com/blog/teaching-the-obvious/"
-permalink: "/2012/07/11/teaching-the-obvious.html"
+permalink: "/articles/2012/07/11/teaching-the-obvious.html"
 ---
 
 Chris Oliver:

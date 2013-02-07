@@ -2,7 +2,7 @@
 layout: post
 title: "We are going to France"
 category: startup
-permalink: "/personal/2012/06/18/we-are-going-to-france.html"
+permalink: "/articles/2012/06/18/we-are-going-to-france.html"
 ---
 
 Yes, thats true. We are going to France. [Rodrigo](http://rodrigohaenggi.com) and I. 
