@@ -4,12 +4,38 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2013-02-14T13:53:20+01:00</updated>
+ <updated>2013-02-28T20:04:51+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>I'm looking for Participants for a Rails Girls Intro video</title>
+   <link href="http://danielpuglisi.com/articles/2013/02/28/participants-for-a-rails-girls-intro.html"/>
+   <updated>2013-02-28T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2013/02/28/participants-for-a-rails-girls-intro</id>
+   <content type="html">&lt;p&gt;As you might know, I&amp;rsquo;m helping organizing the &lt;a href=&quot;http://railsgirls.com/basel&quot;&gt;Rails Girls Basel&lt;/a&gt; event which will take place on the 5th and 6th april this year.&lt;/p&gt;
+
+&lt;p&gt;To promote the event, we want to create a promo video and I had the idea to include several interviews from previous Rails Girls attendees/coaches from all over the world.
+So if you&amp;rsquo;re a former Rails Girls participant and would like to help me, here is what you can do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Record a video of yourself with the length of 30 &amp;ndash; 60 seconds (it can be longer if you want to ;)&lt;/li&gt;
+&lt;li&gt;Talk about the following topics in your video [&amp;ldquo;Why you are interested in programming?&amp;rdquo;, &amp;ldquo;What do you like about programming?&amp;rdquo;, &amp;ldquo;How is programming/tech related to your life?&amp;rdquo;, &amp;ldquo;How has programming/tech changed your life?&amp;rdquo;, &amp;ldquo;What do you think about the Rails Girls Event?&amp;rdquo;, &amp;ldquo;What else do you want to say?&amp;rdquo;]&lt;/li&gt;
+&lt;li&gt;Upload the whole thing to a server/dropbox&lt;/li&gt;
+&lt;li&gt;Add a text file with your full name, Twitter handle and the city/country you live in&lt;/li&gt;
+&lt;li&gt;Send me a link to the package, so I can download the whole thing, to this &lt;a href=&quot;daniel@codegestalt.com&quot;&gt;address&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I would really appreciate your help and of course, you will be named in the credits.
+Additionally if I can collect enough material, I&amp;rsquo;ll try to create a general Rails Girls intro video which can be played on events all over the world :)&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m awaiting your email, cheers &amp;hearts;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Beautify your Chrome's New Tab with FancyTab</title>
