@@ -15,7 +15,7 @@ So if you're a former Rails Girls participant and would like to help me, here is
 * Talk about the following topics in your video ["Why you are interested in programming?", "What do you like about programming?", "How is programming/tech related to your life?", "How has programming/tech changed your life?", "What do you think about the Rails Girls Event?", "What else do you want to say?"]
 * Upload the whole thing to a server/dropbox
 * Add a text file with your full name, Twitter handle and the city/country you live in
-* Send me a link to the package, so I can download the whole thing, to this [address](daniel@codegestalt.com)
+* Send me a link to the package, so I can download the whole thing, to this [address](mailto:daniel@codegestalt.com)
 
 I would really appreciate your help and of course, you will be named in the credits.
 Additionally if I can collect enough material, I'll try to create a general Rails Girls intro video which can be played on events all over the world :)
