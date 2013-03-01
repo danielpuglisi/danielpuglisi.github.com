@@ -152,6 +152,27 @@ namespace :generate do
     end
     File.open(".jekyll/_recommendations/movies.html", "w") << output.join
   end
+
+  desc "generates music lifeline"
+  task :music do
+    require 'lastfm'
+    require 'active_support/all'
+    lastfm = Lastfm.new("get your own", "mafafakaaa")
+    weeklycharts = lastfm.user.get_weekly_chart_list("pulleasy")
+    weeklycharts.each do |weekly_chart|
+      charts = lastfm.user.get_weekly_track_chart(user: "pulleasy", from: weekly_chart["from"], to: weekly_chart["to"])
+      p chart
+    end
+    # first_date = Date.strptime(lastfm.user.get_weekly_chart_list("pulleasy").first["from"], "%s").at_beginning_of_month
+    # last_date = Date.strptime(lastfm.user.get_weekly_chart_list("pulleasy").last["to"], "%s").at_end_of_month
+    # current_date = first_date
+    # while current_date < last_date do
+    #   chart = lastfm.user.get_weekly_track_chart(user: "pulleasy", from: current_date.to_time.to_i, to: current_date.at_end_of_month.to_time.to_i)
+    #   p chart
+    #   p current_date.to_time.to_i
+    #   current_date = current_date.next_month
+    # end
+  end
 end
 
 desc "cleans up the root directory but doesn't touch the jekyll files"
@@ -170,3 +191,14 @@ task :open do
 end
 
 task :default => :start
+
+# e.g. year = 01.01.2009
+def generate_top_tracks(year)
+  weeklycharts = lastfm.user.get_weekly_chart_list("pulleasy")
+  weeklycharts.each do |weekly_chart|
+    charts = []
+    if weekly_chart["from"] > year.to_time.to_i && weekly_chart["to"] < year.next_year.to_time.to_i
+      charts << weekly_chart
+    end
+  end
+end
