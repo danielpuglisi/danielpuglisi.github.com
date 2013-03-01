@@ -1,5 +1,6 @@
 cleanup
 generate:movies
+generate:music
 generate:site
 list:published
 list:unpublished
