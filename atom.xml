@@ -4,12 +4,24 @@
  <title>Daniel Puglisi</title>
  <link href="http://danielpuglisi.com/atom.xml" rel="self"/>
  <link href="http://danielpuglisi.com/"/>
- <updated>2013-03-01T23:29:46+01:00</updated>
+ <updated>2013-03-11T20:21:43+01:00</updated>
  <id>http://danielpuglisi.com</id>
  <author>
    <name>Daniel Puglisi</name>
  </author>
  
+ 
+ <entry>
+   <title>A Rails Girls Map</title>
+   <link href="http://danielpuglisi.com/articles/2013/03/11/a-rails-girls-map.html"/>
+   <updated>2013-03-11T00:00:00+01:00</updated>
+   <id>http://danielpuglisi.com/articles/2013/03/11/a-rails-girls-map</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://twitter.com/abelar_s&quot;&gt;@abelar_s&lt;/a&gt; has created a Google map with locations of previous and future Rails Girls events:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;350&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;https://maps.google.com/maps/ms?ie=UTF8&amp;amp;msa=0&amp;amp;msid=210067024639216766075.0004d77dc3ae4f6138b16&amp;amp;t=m&amp;amp;ll=27.683528,25.3125&amp;amp;spn=150.062038,298.828125&amp;amp;z=1&amp;amp;output=embed&quot;&gt;&lt;/iframe&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>I'm looking for Participants for a Rails Girls Intro video</title>
